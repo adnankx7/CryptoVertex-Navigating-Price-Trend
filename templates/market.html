@@ -1,0 +1,116 @@
+{% extends "base.html" %}
+
+{% block title %}Crypto Market Overview{% endblock %}
+
+{% block content %}
+<div class="market-table-container">
+    <h3 class="market-table-title">Market Overview</h3>
+    <div class="trending-container">
+        <div class="top-gainers-box">
+            <h4>📈 Top Gainers</h4>
+            <ul id="top-gainers-list"></ul>
+        </div>
+        <div class="top-losers-box">
+            <h4>📉 Top Losers</h4>
+            <ul id="top-losers-list"></ul>
+        </div>
+    </div>
+</div>
+
+<div class="market-table-container">
+    <h3 class="market-table-title">CryptoVertex Market Watch</h3>
+    <table class="market-table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>24H Change</th>
+                <th>Market Cap</th>
+                <th>24H Volume</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>
+                    <img src="{{ url_for('static', filename='images/bitcoin-btc-logo.png') }}" 
+                         class="coin-logo" 
+                         alt="Bitcoin Logo">
+                    <span>BTC</span>
+                    <br>
+                    <span class="coin-name-full">&nbsp;&nbsp;&nbsp;&nbsp;Bitcoin</span>
+                </td>
+                <td><span data-symbol="BTC/USDT" data-field="price">Loading...</span></td>
+                <td><span data-symbol="BTC/USDT" data-field="change">Loading...</span></td>
+                <td>$1.38T</td>
+                <td>$42.91B</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>
+                    <img src="{{ url_for('static', filename='images/ethereum-eth-logo.png') }}" 
+                         class="coin-logo" 
+                         alt="Ethereum Logo">
+                    <span>ETH</span>
+                    <br>
+                    <span class="coin-name-full">&nbsp;&nbsp;&nbsp;&nbsp;Ethereum</span>
+                </td>
+                <td><span data-symbol="ETH/USDT" data-field="price">Loading...</span></td>
+                <td><span data-symbol="ETH/USDT" data-field="change">Loading...</span></td>
+                <td>$306.00B</td>
+                <td>$22.74B</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>
+                    <img src="{{ url_for('static', filename='images/cardano-ada-logo.png') }}" 
+                         class="coin-logo" 
+                         alt="Cardano Logo">
+                    <span>ADA</span>
+                    <br>
+                    <span class="coin-name-full">&nbsp;&nbsp;&nbsp;&nbsp;Cardano</span>
+                </td>
+                <td><span data-symbol="ADA/USDT" data-field="price">Loading...</span></td>
+                <td><span data-symbol="ADA/USDT" data-field="change">Loading...</span></td>
+                <td>$88.60B</td>
+                <td>$1.12B</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>
+                    <img src="{{ url_for('static', filename='images/solana-sol-logo.png') }}" 
+                         class="coin-logo" 
+                         alt="Solana Logo">
+                    <span>SOL</span>
+                    <br>
+                    <span class="coin-name-full">&nbsp;&nbsp;&nbsp;&nbsp;Solana</span>
+                </td>
+                <td><span data-symbol="SOL/USDT" data-field="price">Loading...</span></td>
+                <td><span data-symbol="SOL/USDT" data-field="change">Loading...</span></td>
+                <td>$83.31B</td>
+                <td>$7.57B</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>
+                    <img src="{{ url_for('static', filename='images/xrp-xrp-logo.png') }}" 
+                         class="coin-logo" 
+                         alt="XRP Logo">
+                    <span>XRP</span>
+                    <br>
+                    <span class="coin-name-full">&nbsp;&nbsp;&nbsp;&nbsp;Ripple</span>
+                </td>
+                <td><span data-symbol="XRP/USDT" data-field="price">Loading...</span></td>
+                <td><span data-symbol="XRP/USDT" data-field="change">Loading...</span></td>
+                <td>$42.91B</td>
+                <td>$1.83B</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/live_data.js') }}"></script>
+{% endblock %}

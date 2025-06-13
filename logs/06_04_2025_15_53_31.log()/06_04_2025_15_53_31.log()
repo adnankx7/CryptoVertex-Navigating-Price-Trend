@@ -1,0 +1,40 @@
+[2025-06-04 15:53:31,958] 57 root - INFO - Data paths config loaded from: F:\FYP-II\CryptoVertex\data_paths.json
+[2025-06-04 15:53:32,095] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-06-04 15:53:32,102] 97 werkzeug - INFO -  * Debugger PIN: 672-290-822
+[2025-06-04 15:53:35,499] 105 root - INFO - Starting prediction for BTC_USDT...
+[2025-06-04 15:53:35,584] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2025 15:53:35] "GET / HTTP/1.1" 200 -
+[2025-06-04 15:53:39,907] 259 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2025-06-04 15:53:39,929] 58 root - INFO - Object loaded successfully from: F:\FYP-II\CryptoVertex\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2025-06-04 15:53:41,482] 137 root - INFO - Predicted next price for BTC_USDT: 100159.4159
+[2025-06-04 15:53:41,546] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2025 15:53:41] "GET /btc HTTP/1.1" 200 -
+[2025-06-04 15:53:46,124] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2025 15:53:46] "GET /live_data HTTP/1.1" 200 -
+[2025-06-04 15:53:46,202] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2025 15:53:46] "GET /live_data HTTP/1.1" 200 -
+[2025-06-04 15:53:46,206] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2025 15:53:46] "GET /live_data HTTP/1.1" 200 -
+[2025-06-04 15:53:46,233] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2025 15:53:46] "GET /live_data HTTP/1.1" 200 -
+[2025-06-04 15:53:46,241] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2025 15:53:46] "GET /live_data HTTP/1.1" 200 -
+[2025-06-04 15:53:46,249] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2025 15:53:46] "GET /live_data HTTP/1.1" 200 -
+[2025-06-04 15:53:46,391] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2025 15:53:46] "GET /live_data HTTP/1.1" 200 -
+[2025-06-04 15:53:46,405] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2025 15:53:46] "GET /live_data HTTP/1.1" 200 -
+[2025-06-04 15:53:46,428] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2025 15:53:46] "GET /live_data HTTP/1.1" 200 -
+[2025-06-04 15:53:46,450] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2025 15:53:46] "GET /live_data HTTP/1.1" 200 -
+[2025-06-04 15:53:46,458] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2025 15:53:46] "GET /live_data HTTP/1.1" 200 -
+[2025-06-04 15:53:46,494] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2025 15:53:46] "GET /live_data HTTP/1.1" 200 -
+[2025-06-04 15:53:46,508] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2025 15:53:46] "GET /live_data HTTP/1.1" 200 -
+[2025-06-04 15:53:46,525] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2025 15:53:46] "GET /live_data HTTP/1.1" 200 -
+[2025-06-04 15:53:46,550] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2025 15:53:46] "GET /live_data HTTP/1.1" 200 -
+[2025-06-04 15:53:46,577] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2025 15:53:46] "GET /live_data HTTP/1.1" 200 -
+[2025-06-04 15:53:46,581] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2025 15:53:46] "GET /live_data HTTP/1.1" 200 -
+[2025-06-04 15:53:46,611] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2025 15:53:46] "GET /live_data HTTP/1.1" 200 -
+[2025-06-04 15:53:46,941] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2025 15:53:46] "GET /live_data HTTP/1.1" 200 -
+[2025-06-04 15:53:46,974] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2025 15:53:46] "GET /live_data HTTP/1.1" 200 -
+[2025-06-04 15:53:46,992] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2025 15:53:46] "GET /live_data HTTP/1.1" 200 -
+[2025-06-04 15:53:47,014] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2025 15:53:47] "GET /live_data HTTP/1.1" 200 -
+[2025-06-04 15:53:47,018] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2025 15:53:47] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+[2025-06-04 15:53:47,032] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2025 15:53:47] "[33mGET /static/images/logo.png HTTP/1.1[0m" 404 -
+[2025-06-04 15:53:47,077] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2025 15:53:47] "[36mGET /static/images/bitcoin-btc-logo.png HTTP/1.1[0m" 304 -
+[2025-06-04 15:53:47,089] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2025 15:53:47] "[36mGET /static/js/live_data.js HTTP/1.1[0m" 304 -
+[2025-06-04 15:53:47,096] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2025 15:53:47] "[36mGET /static/js/search.js HTTP/1.1[0m" 304 -
+[2025-06-04 15:53:47,106] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2025 15:53:47] "[36mGET /static/js/utils_chart.js HTTP/1.1[0m" 304 -
+[2025-06-04 15:53:47,219] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2025 15:53:47] "GET /live_data HTTP/1.1" 200 -
+[2025-06-04 15:53:47,564] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2025 15:53:47] "GET /historical_data/BTC%2FUSDT HTTP/1.1" 200 -
+[2025-06-04 16:07:57,856] 97 werkzeug - INFO -  * Detected change in 'F:\\FYP-II\\CryptoVertex\\app.py', reloading

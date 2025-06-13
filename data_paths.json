@@ -1,0 +1,27 @@
+{
+  "ADA_USDT": {
+    "train": "artifacts/ADA_USDT/train.csv",
+    "val": "artifacts/ADA_USDT/val.csv",
+    "test": "artifacts/ADA_USDT/test.csv"
+  },
+  "BTC_USDT": {
+    "train": "artifacts/BTC_USDT/train.csv",
+    "val": "artifacts/BTC_USDT/val.csv",
+    "test": "artifacts/BTC_USDT/test.csv"
+  },
+  "ETH_USDT": {
+    "train": "artifacts/ETH_USDT/train.csv",
+    "val": "artifacts/ETH_USDT/val.csv",
+    "test": "artifacts/ETH_USDT/test.csv"
+  },
+  "SOL_USDT": {
+    "train": "artifacts/SOL_USDT/train.csv",
+    "val": "artifacts/SOL_USDT/val.csv",
+    "test": "artifacts/SOL_USDT/test.csv"
+  },
+  "XRP_USDT": {
+    "train": "artifacts/XRP_USDT/train.csv",
+    "val": "artifacts/XRP_USDT/val.csv",
+    "test": "artifacts/XRP_USDT/test.csv"
+  }
+}

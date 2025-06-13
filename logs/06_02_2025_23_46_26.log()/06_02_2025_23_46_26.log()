@@ -1,0 +1,21 @@
+[2025-06-02 23:46:27,199] 209 root - INFO - predict_pipeline.py executed as main script.
+[2025-06-02 23:46:27,224] 70 root - INFO - Data paths config loaded from: F:\FYP-II\CryptoVertex\data_paths.json
+[2025-06-02 23:46:27,229] 185 root - INFO - Starting batch prediction for all configured coins.
+[2025-06-02 23:46:27,232] 89 root - ERROR - Model file for ADA_USDT not found at: F:\FYP-II\CryptoVertex\artifacts\ADA_USDT\models\ADA_USDT.h5
+[2025-06-02 23:46:27,232] 128 root - ERROR - Missing model or scaler for ADA_USDT. Cannot predict.
+[2025-06-02 23:46:27,232] 89 root - ERROR - Model file for BTC_USDT not found at: F:\FYP-II\CryptoVertex\artifacts\BTC_USDT\models\BTC_USDT.h5
+[2025-06-02 23:46:27,232] 92 root - ERROR - Scaler file for BTC_USDT not found at: F:\FYP-II\CryptoVertex\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2025-06-02 23:46:27,331] 128 root - ERROR - Missing model or scaler for BTC_USDT. Cannot predict.
+[2025-06-02 23:46:27,338] 89 root - ERROR - Model file for ETH_USDT not found at: F:\FYP-II\CryptoVertex\artifacts\ETH_USDT\models\ETH_USDT.h5
+[2025-06-02 23:46:27,338] 92 root - ERROR - Scaler file for ETH_USDT not found at: F:\FYP-II\CryptoVertex\artifacts\ETH_USDT\scalers\ETH_USDT_scaler.pkl
+[2025-06-02 23:46:27,338] 128 root - ERROR - Missing model or scaler for ETH_USDT. Cannot predict.
+[2025-06-02 23:46:27,343] 89 root - ERROR - Model file for SOL_USDT not found at: F:\FYP-II\CryptoVertex\artifacts\SOL_USDT\models\SOL_USDT.h5
+[2025-06-02 23:46:27,343] 92 root - ERROR - Scaler file for SOL_USDT not found at: F:\FYP-II\CryptoVertex\artifacts\SOL_USDT\scalers\SOL_USDT_scaler.pkl
+[2025-06-02 23:46:27,343] 128 root - ERROR - Missing model or scaler for SOL_USDT. Cannot predict.
+[2025-06-02 23:46:27,345] 89 root - ERROR - Model file for XRP_USDT not found at: F:\FYP-II\CryptoVertex\artifacts\XRP_USDT\models\XRP_USDT.h5
+[2025-06-02 23:46:27,345] 92 root - ERROR - Scaler file for XRP_USDT not found at: F:\FYP-II\CryptoVertex\artifacts\XRP_USDT\scalers\XRP_USDT_scaler.pkl
+[2025-06-02 23:46:27,345] 128 root - ERROR - Missing model or scaler for XRP_USDT. Cannot predict.
+[2025-06-02 23:46:27,345] 205 root - INFO - Batch prediction summary: {'ADA_USDT': 'Failed', 'BTC_USDT': 'Failed', 'ETH_USDT': 'Failed', 'SOL_USDT': 'Failed', 'XRP_USDT': 'Failed'}
+[2025-06-02 23:46:27,346] 89 root - ERROR - Model file for BTC_USDT not found at: F:\FYP-II\CryptoVertex\artifacts\BTC_USDT\models\BTC_USDT.h5
+[2025-06-02 23:46:27,346] 92 root - ERROR - Scaler file for BTC_USDT not found at: F:\FYP-II\CryptoVertex\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2025-06-02 23:46:27,346] 128 root - ERROR - Missing model or scaler for BTC_USDT. Cannot predict.

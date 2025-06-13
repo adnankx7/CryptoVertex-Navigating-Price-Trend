@@ -1,0 +1,9 @@
+[2025-06-02 20:05:07,484] 260 root - INFO - Successfully loaded data paths from F:\FYP-II\CryptoVertex\data_paths.json
+[2025-06-02 20:05:07,484] 280 root - INFO - --- Starting training pipeline for ADA_USDT ---
+[2025-06-02 20:05:08,362] 314 root - INFO - Loaded data for ADA_USDT.
+[2025-06-02 20:05:08,370] 78 root - INFO - Starting model training process for ADA_USDT...
+[2025-06-02 20:05:08,614] 47 root - INFO - Object saved to F:\FYP-II\CryptoVertex\artifacts\ADA_USDT\scalers\ADA_USDT_scaler.pkl
+[2025-06-02 20:05:08,614] 106 root - INFO - Saved MinMaxScaler for ADA_USDT to: F:\FYP-II\CryptoVertex\artifacts\ADA_USDT\scalers\ADA_USDT_scaler.pkl
+[2025-06-02 20:05:22,688] 140 root - INFO - Starting hyperparameter tuning for ADA_USDT...
+[2025-06-02 20:05:31,958] 149 tensorflow - WARNING - From F:\FYP-II\CryptoVertex\venv\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+

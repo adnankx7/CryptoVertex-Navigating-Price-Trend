@@ -1,0 +1,16 @@
+[2025-06-02 19:59:12,187] 268 root - INFO - Successfully loaded data paths from F:\FYP-II\CryptoVertex\data_paths.json
+[2025-06-02 19:59:12,251] 288 root - INFO - --- Starting training pipeline for ADA_USDT ---
+[2025-06-02 19:59:12,251] 313 root - ERROR - Data files missing for ADA_USDT. Checked paths: Train: /content/drive/MyDrive/CryptoVertex/artifacts/ADA_USDT/train.csv, Val: /content/drive/MyDrive/CryptoVertex/artifacts/ADA_USDT/val.csv, Test: /content/drive/MyDrive/CryptoVertex/artifacts/ADA_USDT/test.csv. Skipping.
+[2025-06-02 19:59:12,251] 315 root - ERROR - Ensure paths in 'data_paths.json' are correct for your local system.
+[2025-06-02 19:59:12,251] 288 root - INFO - --- Starting training pipeline for BTC_USDT ---
+[2025-06-02 19:59:12,264] 313 root - ERROR - Data files missing for BTC_USDT. Checked paths: Train: /content/drive/MyDrive/CryptoVertex/artifacts/BTC_USDT/train.csv, Val: /content/drive/MyDrive/CryptoVertex/artifacts/BTC_USDT/val.csv, Test: /content/drive/MyDrive/CryptoVertex/artifacts/BTC_USDT/test.csv. Skipping.
+[2025-06-02 19:59:12,264] 315 root - ERROR - Ensure paths in 'data_paths.json' are correct for your local system.
+[2025-06-02 19:59:12,264] 288 root - INFO - --- Starting training pipeline for ETH_USDT ---
+[2025-06-02 19:59:12,264] 313 root - ERROR - Data files missing for ETH_USDT. Checked paths: Train: /content/drive/MyDrive/CryptoVertex/artifacts/ETH_USDT/train.csv, Val: /content/drive/MyDrive/CryptoVertex/artifacts/ETH_USDT/val.csv, Test: /content/drive/MyDrive/CryptoVertex/artifacts/ETH_USDT/test.csv. Skipping.
+[2025-06-02 19:59:12,264] 315 root - ERROR - Ensure paths in 'data_paths.json' are correct for your local system.
+[2025-06-02 19:59:12,264] 288 root - INFO - --- Starting training pipeline for SOL_USDT ---
+[2025-06-02 19:59:12,276] 313 root - ERROR - Data files missing for SOL_USDT. Checked paths: Train: /content/drive/MyDrive/CryptoVertex/artifacts/SOL_USDT/train.csv, Val: /content/drive/MyDrive/CryptoVertex/artifacts/SOL_USDT/val.csv, Test: /content/drive/MyDrive/CryptoVertex/artifacts/SOL_USDT/test.csv. Skipping.
+[2025-06-02 19:59:12,276] 315 root - ERROR - Ensure paths in 'data_paths.json' are correct for your local system.
+[2025-06-02 19:59:12,278] 288 root - INFO - --- Starting training pipeline for XRP_USDT ---
+[2025-06-02 19:59:12,278] 313 root - ERROR - Data files missing for XRP_USDT. Checked paths: Train: /content/drive/MyDrive/CryptoVertex/artifacts/XRP_USDT/train.csv, Val: /content/drive/MyDrive/CryptoVertex/artifacts/XRP_USDT/val.csv, Test: /content/drive/MyDrive/CryptoVertex/artifacts/XRP_USDT/test.csv. Skipping.
+[2025-06-02 19:59:12,278] 315 root - ERROR - Ensure paths in 'data_paths.json' are correct for your local system.

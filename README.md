@@ -64,3 +64,4 @@ cryptovertex/
 ├── main.py # Main Flask app runner
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
+

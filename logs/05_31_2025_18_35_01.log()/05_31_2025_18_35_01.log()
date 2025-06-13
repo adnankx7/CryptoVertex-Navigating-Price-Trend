@@ -1,0 +1,23 @@
+[2025-05-31 18:35:01,475] 99 root - WARNING - Could not read timestamp from BTC_USDT.csv, returning None
+[2025-05-31 18:35:08,782] 62 root - ERROR - Unexpected error while scraping BTC/USDT: _IOBase.writelines() takes exactly one argument (0 given)
+[2025-05-31 18:35:08,782] 115 root - ERROR - CustomException while scraping BTC/USDT: Error occurred in python script name [F:\FYP-II\CryptoVertex\src\scraper\scraper.py] line number [53] error message[Unexpected error while scraping BTC/USDT: _IOBase.writelines() takes exactly one argument (0 given)]
+[2025-05-31 18:35:08,782] 140 root - ERROR - Error scraping data for BTC/USDT: Error occurred in python script name [F:\FYP-II\CryptoVertex\src\scraper\scraper.py] line number [53] error message[Unexpected error while scraping BTC/USDT: _IOBase.writelines() takes exactly one argument (0 given)]
+[2025-05-31 18:35:08,883] 99 root - WARNING - Could not read timestamp from ADA_USDT.csv, returning None
+[2025-05-31 18:35:20,402] 62 root - ERROR - Unexpected error while scraping ADA/USDT: _IOBase.writelines() takes exactly one argument (0 given)
+[2025-05-31 18:35:20,402] 115 root - ERROR - CustomException while scraping ADA/USDT: Error occurred in python script name [F:\FYP-II\CryptoVertex\src\scraper\scraper.py] line number [53] error message[Unexpected error while scraping ADA/USDT: _IOBase.writelines() takes exactly one argument (0 given)]
+[2025-05-31 18:35:20,402] 140 root - ERROR - Error scraping data for ADA/USDT: Error occurred in python script name [F:\FYP-II\CryptoVertex\src\scraper\scraper.py] line number [53] error message[Unexpected error while scraping ADA/USDT: _IOBase.writelines() takes exactly one argument (0 given)]
+[2025-05-31 18:35:20,501] 99 root - WARNING - Could not read timestamp from ETH_USDT.csv, returning None
+[2025-05-31 18:35:30,478] 62 root - ERROR - Unexpected error while scraping ETH/USDT: _IOBase.writelines() takes exactly one argument (0 given)
+[2025-05-31 18:35:30,478] 115 root - ERROR - CustomException while scraping ETH/USDT: Error occurred in python script name [F:\FYP-II\CryptoVertex\src\scraper\scraper.py] line number [53] error message[Unexpected error while scraping ETH/USDT: _IOBase.writelines() takes exactly one argument (0 given)]
+[2025-05-31 18:35:30,478] 140 root - ERROR - Error scraping data for ETH/USDT: Error occurred in python script name [F:\FYP-II\CryptoVertex\src\scraper\scraper.py] line number [53] error message[Unexpected error while scraping ETH/USDT: _IOBase.writelines() takes exactly one argument (0 given)]
+[2025-05-31 18:35:30,655] 99 root - WARNING - Could not read timestamp from XRP_USDT.csv, returning None
+[2025-05-31 18:35:37,298] 62 root - ERROR - Unexpected error while scraping XRP/USDT: _IOBase.writelines() takes exactly one argument (0 given)
+[2025-05-31 18:35:37,298] 115 root - ERROR - CustomException while scraping XRP/USDT: Error occurred in python script name [F:\FYP-II\CryptoVertex\src\scraper\scraper.py] line number [53] error message[Unexpected error while scraping XRP/USDT: _IOBase.writelines() takes exactly one argument (0 given)]
+[2025-05-31 18:35:37,298] 140 root - ERROR - Error scraping data for XRP/USDT: Error occurred in python script name [F:\FYP-II\CryptoVertex\src\scraper\scraper.py] line number [53] error message[Unexpected error while scraping XRP/USDT: _IOBase.writelines() takes exactly one argument (0 given)]
+[2025-05-31 18:35:37,434] 99 root - WARNING - Could not read timestamp from SOL_USDT.csv, returning None
+[2025-05-31 18:35:47,422] 62 root - ERROR - Unexpected error while scraping SOL/USDT: _IOBase.writelines() takes exactly one argument (0 given)
+[2025-05-31 18:35:47,422] 115 root - ERROR - CustomException while scraping SOL/USDT: Error occurred in python script name [F:\FYP-II\CryptoVertex\src\scraper\scraper.py] line number [53] error message[Unexpected error while scraping SOL/USDT: _IOBase.writelines() takes exactly one argument (0 given)]
+[2025-05-31 18:35:47,422] 140 root - ERROR - Error scraping data for SOL/USDT: Error occurred in python script name [F:\FYP-II\CryptoVertex\src\scraper\scraper.py] line number [53] error message[Unexpected error while scraping SOL/USDT: _IOBase.writelines() takes exactly one argument (0 given)]
+[2025-05-31 18:35:47,556] 143 root - INFO - Start time: 2025-05-31 18:35:01.475032
+[2025-05-31 18:35:47,556] 144 root - INFO - End time: 2025-05-31 18:35:47.556476
+[2025-05-31 18:35:47,556] 145 root - INFO - Total Running time: 0:00:46.081444

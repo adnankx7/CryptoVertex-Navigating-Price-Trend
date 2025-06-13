@@ -1,0 +1,105 @@
+{% extends "base.html" %}
+
+{% block title %}CryptoVertex - Professional Crypto Forecasting{% endblock %}
+
+{% block content %}
+<div class="homepage-container">
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Advanced Crypto Price Prediction</h1>
+                <p class="hero-subtitle">Data-driven forecasting powered by deep learning algorithms</p>
+                <div class="cta-container">
+                    <a href="/market" class="cta-primary">Live Markets</a>
+                    <a href="#methodology" class="cta-secondary">Our Research</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="prediction-visualization">
+                    <img src="{{ url_for('static', filename='images/prediction (2).png') }}" alt="Crypto Price Prediction Chart" class="hero-chart">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Data Source Section -->
+    <section id="data" class="value-section">
+        <div class="value-card">
+            <div class="value-icon">📊</div>
+            <h3>8 Years of Historical Data</h3>
+            <p>Our models analyze comprehensive Binance historical data spanning the last 8 years for maximum pattern recognition</p>
+        </div>
+        <div class="value-card highlighted">
+            <div class="value-icon">🧠</div>
+            <h3>Deep Learning Model</h3>
+            <p>Advanced neural networks process multi-dimensional market data for accurate forecasting</p>
+        </div>
+        <div class="value-card">
+            <div class="value-icon">📈</div>
+            <h3>High Accuracy Predictions</h3>
+            <p>Precision-engineered forecasting for reliable market movement analysis</p>
+        </div>
+    </section>
+
+    <!-- Technical Analysis Section -->
+    <section id="methodology" class="methodology-section">
+        <h2 class="section-title">Technical Indicators</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <div class="feature-icon">📊</div>
+                <h3>Relative Strength Index (RSI)</h3>
+                <p>Momentum oscillator measuring speed and change of price movements to identify overbought or oversold conditions in the market</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📈</div>
+                <h3>Exponential Moving Average (EMA)</h3>
+                <p>Price average giving more weight to recent data points for responsive trend identification and signal generation</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📉</div>
+                <h3>Simple Moving Average (SMA)</h3>
+                <p>Basic price average over specific time periods to identify support, resistance and trend direction across multiple timeframes</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Model Section -->
+    <section id="model" class="model-section">
+        <h2 class="section-title">Our Deep Learning Approach</h2>
+        <div class="model-content">
+            <div class="model-description">
+                <p>Our state-of-the-art deep learning architecture processes multi-dimensional market data to generate accurate price predictions across multiple timeframes.</p>
+                <ul class="model-features">
+                    <li><span class="check-icon">✓</span> Neural networks trained on 8 years of market data</li>
+                    <li><span class="check-icon">✓</span> Feature engineering with technical indicators</li>
+                    <li><span class="check-icon">✓</span> Optimized for short and long-term forecasting</li>
+                    <li><span class="check-icon">✓</span> Real-time data processing pipeline</li>
+                </ul>
+            </div>
+            <div class="model-visual">
+                <img src="{{ url_for('static', filename='images/LSTM-ARCH.png') }}" alt="Deep Learning Model Architecture" class="model-chart">
+            </div>
+        </div>
+    </section>
+
+    <!-- Performance Section -->
+    <section class="performance-section">
+        <h2 class="section-title">Model Performance</h2>
+        <div class="performance-metrics">
+            <div class="metric-card">
+                <div class="metric-value">94.7%</div>
+                <div class="metric-label">Direction Accuracy</div>
+            </div>
+            <div class="metric-card highlighted">
+                <div class="metric-value">3.2%</div>
+                <div class="metric-label">Mean Absolute Error</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value">87.5%</div>
+                <div class="metric-label">Profit Optimization</div>
+            </div>
+        </div>
+    </section>
+</div>
+{% endblock %}

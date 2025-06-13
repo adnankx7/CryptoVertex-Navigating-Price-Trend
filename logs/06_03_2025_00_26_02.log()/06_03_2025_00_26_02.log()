@@ -1,0 +1,30 @@
+[2025-06-03 00:26:02,917] 165 root - INFO - predict_pipeline.py executed as main script.
+[2025-06-03 00:26:02,986] 57 root - INFO - Data paths config loaded from: F:\FYP-II\CryptoVertex\data_paths.json
+[2025-06-03 00:26:02,986] 146 root - INFO - Starting batch prediction for all configured coins.
+[2025-06-03 00:26:02,995] 105 root - INFO - Starting prediction for ADA_USDT...
+[2025-06-03 00:26:10,878] 259 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2025-06-03 00:26:10,960] 58 root - INFO - Object loaded successfully from: F:\FYP-II\CryptoVertex\artifacts\ADA_USDT\scalers\ADA_USDT_scaler.pkl
+[2025-06-03 00:26:28,111] 137 root - INFO - Predicted next price for ADA_USDT: 0.6650
+[2025-06-03 00:26:28,127] 105 root - INFO - Starting prediction for BTC_USDT...
+[2025-06-03 00:26:28,256] 259 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2025-06-03 00:26:28,286] 58 root - INFO - Object loaded successfully from: F:\FYP-II\CryptoVertex\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2025-06-03 00:26:29,118] 137 root - INFO - Predicted next price for BTC_USDT: 100159.4159
+[2025-06-03 00:26:29,175] 105 root - INFO - Starting prediction for ETH_USDT...
+[2025-06-03 00:26:29,936] 259 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2025-06-03 00:26:30,076] 58 root - INFO - Object loaded successfully from: F:\FYP-II\CryptoVertex\artifacts\ETH_USDT\scalers\ETH_USDT_scaler.pkl
+[2025-06-03 00:26:31,652] 137 root - INFO - Predicted next price for ETH_USDT: 2549.8860
+[2025-06-03 00:26:31,695] 105 root - INFO - Starting prediction for SOL_USDT...
+[2025-06-03 00:26:32,007] 259 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2025-06-03 00:26:32,079] 58 root - INFO - Object loaded successfully from: F:\FYP-II\CryptoVertex\artifacts\SOL_USDT\scalers\SOL_USDT_scaler.pkl
+[2025-06-03 00:26:33,794] 137 root - INFO - Predicted next price for SOL_USDT: 152.1900
+[2025-06-03 00:26:33,813] 105 root - INFO - Starting prediction for XRP_USDT...
+[2025-06-03 00:26:34,199] 259 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2025-06-03 00:26:34,392] 58 root - INFO - Object loaded successfully from: F:\FYP-II\CryptoVertex\artifacts\XRP_USDT\scalers\XRP_USDT_scaler.pkl
+[2025-06-03 00:26:37,084] 157 tensorflow - WARNING - 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000022211926D40> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[2025-06-03 00:26:38,329] 137 root - INFO - Predicted next price for XRP_USDT: 2.0126
+[2025-06-03 00:26:38,329] 161 root - INFO - Batch prediction summary: {'ADA_USDT': '0.6650', 'BTC_USDT': '100159.4159', 'ETH_USDT': '2549.8860', 'SOL_USDT': '152.1900', 'XRP_USDT': '2.0126'}
+[2025-06-03 00:26:38,333] 105 root - INFO - Starting prediction for BTC_USDT...
+[2025-06-03 00:26:38,466] 259 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2025-06-03 00:26:38,480] 58 root - INFO - Object loaded successfully from: F:\FYP-II\CryptoVertex\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2025-06-03 00:26:39,085] 157 tensorflow - WARNING - 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x00000222119F8900> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[2025-06-03 00:26:39,163] 137 root - INFO - Predicted next price for BTC_USDT: 100159.4159

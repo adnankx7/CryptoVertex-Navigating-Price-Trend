@@ -1,0 +1,8 @@
+[2025-05-31 19:02:07,489] 97 root - WARNING - Could not read timestamp from BTC_USDT.csv, returning None
+[2025-05-31 19:02:27,711] 97 root - WARNING - Could not read timestamp from ADA_USDT.csv, returning None
+[2025-05-31 19:02:41,039] 97 root - WARNING - Could not read timestamp from ETH_USDT.csv, returning None
+[2025-05-31 19:02:56,603] 97 root - WARNING - Could not read timestamp from XRP_USDT.csv, returning None
+[2025-05-31 19:03:10,413] 97 root - WARNING - Could not read timestamp from SOL_USDT.csv, returning None
+[2025-05-31 19:03:21,262] 154 root - INFO - Start time: 2025-05-31 19:02:07.480569
+[2025-05-31 19:03:21,262] 155 root - INFO - End time: 2025-05-31 19:03:21.262923
+[2025-05-31 19:03:21,262] 156 root - INFO - Total Running time: 0:01:13.782354

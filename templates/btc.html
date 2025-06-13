@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+{% block title %}{{ coin_full_name | default(coin_ticker_symbol | default('Coin')) }} ({{ coin_ticker_symbol | default('COIN') }}){% endblock %}
+
+{% block content %}
+<div class="coin-page-container">
+    <div class="coin-header">
+        <img src="{{ url_for('static', filename='images/bitcoin-btc-logo.png') }}" 
+             class="coin-logo-large" 
+             alt="Bitcoin Logo">
+        <h1>{{ coin_full_name | default(coin_ticker_symbol) }} ({{ coin_ticker_symbol | default('COIN') }})</h1>
+        <div class="price-container">
+            {# coin_symbol_ccxt is for live data JS, e.g., BTC/USDT #}
+            <span class="current-price" data-symbol="{{ coin_symbol_ccxt }}" data-field="price">Loading...</span>
+            <span class="price-change" data-symbol="{{ coin_symbol_ccxt }}" data-field="change">Loading...</span>
+        </div>
+    </div>
+
+    <div class="coin-details">
+        <div class="chart-wrapper">
+            <div class="chart-header">
+                <h2>{{ coin_ticker_symbol | default('COIN') }} Price Chart (30 Days)</h2>
+                {# Ensure your download route is named 'download_historical_endpoint' in app.py #}
+                <a href="{{ url_for('download_historical_endpoint', symbol_ccxt=coin_symbol_ccxt) }}" 
+                   class="download-btn">
+                    <i class="fas fa-file-csv"></i> Download Full History
+                </a>
+            </div>
+            <div class="chart-container">
+                <canvas id="priceChart"></canvas>
+                <div id="chartError" class="chart-error-message" style="display: none;">
+                    ⚠️ Failed to load historical data. Please try again later.
+                </div>
+                <div id="chartLoading" class="chart-loading-message">
+                    ⌛ Loading historical data...
+                </div>
+            </div>
+        </div>
+        
+        <div class="stats-container">
+            <div class="stat-box">
+                <h3>Market Cap</h3>
+                <p>{{ market_cap | default('N/A') }}</p>
+            </div>
+            <div class="stat-box">
+                <h3>24H Volume</h3>
+                <p>{{ volume_24h | default('N/A') }}</p>
+            </div>
+            <div class="stat-box">
+                <h3>Prediction (Next Price)</h3>
+                <p>{{ predicted_price | default('N/A') }}</p>
+            </div>
+            {# If you have other stats like 'Circulating Supply' and want them dynamic,
+               add them to market_data_static in app.py and pass them to the template.
+               Then you can display them here:
+            {% if circulating_supply %}
+            <div class="stat-box">
+                <h3>Circulating Supply</h3>
+                <p>{{ circulating_supply }}</p> 
+            </div>
+            {% endif %}
+            #}
+        </div>
+    </div>
+
+    <div class="coin-description">
+        <h2>About {{ coin_full_name | default(coin_ticker_symbol) }}</h2>
+        <p>{{ description | default('No description available.') | safe }}</p>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/luxon"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-luxon"></script>
+<script src="{{ url_for('static', filename='js/utils_chart.js') }}"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // coin_symbol_ccxt (e.g., ADA/USDT) and chart_color are passed from app.py
+        initializeHistoricalChart('{{ coin_symbol_ccxt }}', '{{ chart_color | default("#4A90E2") }}');
+    });
+</script>
+{% endblock %}
