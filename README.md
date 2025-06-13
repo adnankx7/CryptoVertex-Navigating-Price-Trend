@@ -53,3 +53,14 @@ CryptoVertex was developed as a full-stack data science project to demonstrate h
 
 ## 🗂️ Project Structure
 
+cryptovertex/
+├── app/ # Flask app (routes, templates, static)
+│ ├── static/ # Chart.js, CSS, JS assets
+│ └── templates/ # HTML templates (Jinja2)
+├── data/ # Datasets (raw/processed)
+├── models/ # Trained LSTM and GRU models
+├── utils/ # Feature engineering, indicators, helpers
+├── notebooks/ # Jupyter notebooks for EDA/model dev
+├── main.py # Main Flask app runner
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation
