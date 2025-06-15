@@ -1,0 +1,5 @@
+[2025-06-15 16:30:25,764] 57 root - INFO - Data paths config loaded from: F:\FYP-II\CryptoVertex\data_paths.json
+[2025-06-15 16:30:26,384] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-06-15 16:30:26,384] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2025-06-15 16:30:26,415] 97 werkzeug - INFO -  * Restarting with stat

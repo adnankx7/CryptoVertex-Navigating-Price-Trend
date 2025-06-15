@@ -1,67 +1,68 @@
-// Debounce function to limit API calls
-function debounce(func, delay) {
-    let timeout;
-    return function(...args) {
-        clearTimeout(timeout);
-        timeout = setTimeout(() => func.apply(this, args), delay);
-    };
-}
+document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('coin-search-input');
+    const suggestionsList = document.getElementById('search-suggestions');
+    let allCoins = []; // This will cache the coin data to avoid repeated API calls.
 
-const searchInput = document.getElementById('coin-search-input');
-const suggestionsList = document.getElementById('search-suggestions');
+    // Fetch the list of all coins once the page is loaded and cache it.
+    fetch('/api/search_coins')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            allCoins = data;
+        })
+        .catch(error => {
+            console.error('Error fetching coin data:', error);
+            // Optionally, display an error message to the user in the UI
+        });
 
-function clearSuggestions() {
-    suggestionsList.innerHTML = '';
-    suggestionsList.style.display = 'none';
-}
-
-function createSuggestionItem(coin) {
-    const li = document.createElement('li');
-    li.textContent = `${coin.full_name} (${coin.symbol.split('/')[0]})`;
-    li.style.padding = '8px';
-    li.style.cursor = 'pointer';
-    li.style.backgroundColor = '#1a1f2c';
-    li.addEventListener('click', () => {
-        window.location.href = coin.url;
-    });
-    return li;
-}
-
-async function fetchSuggestions(query) {
-    if (!query) {
-        clearSuggestions();
-        return;
-    }
-    try {
-        const response = await fetch(`/search_coins?q=${encodeURIComponent(query)}`);
-        if (!response.ok) throw new Error('Network response was not ok');
-        const results = await response.json();
+    // Add an event listener to the search input to handle user typing.
+    searchInput.addEventListener('input', function() {
+        const query = this.value.toLowerCase().trim();
+        
+        // Clear previous suggestions
         suggestionsList.innerHTML = '';
-        if (results.length === 0) {
-            clearSuggestions();
+
+        if (query.length === 0) {
+            suggestionsList.style.display = 'none';
             return;
         }
-        results.forEach(coin => {
-            const item = createSuggestionItem(coin);
-            suggestionsList.appendChild(item);
-        });
-        suggestionsList.style.display = 'block';
-    } catch (error) {
-        console.error('Error fetching search suggestions:', error);
-        clearSuggestions();
-    }
-}
 
-const debouncedFetch = debounce(fetchSuggestions, 300);
+        // Filter the cached list of coins based on the user's query.
+        const filteredCoins = allCoins.filter(coin =>
+            coin.name.toLowerCase().includes(query) ||
+            coin.ticker.toLowerCase().includes(query)
+        );
 
-searchInput.addEventListener('input', (e) => {
-    const query = e.target.value.trim();
-    debouncedFetch(query);
-});
+        // If there are matches, build and display the suggestions list.
+        if (filteredCoins.length > 0) {
+            filteredCoins.forEach(coin => {
+                const listItem = document.createElement('li');
+                const link = document.createElement('a');
+                
+                // The link's URL is created from the coin's 'slug' (e.g., /btc)
+                link.href = `/${coin.slug}`;
+                
+                // The link's text shows the full name and ticker (e.g., "Bitcoin (BTC)")
+                link.textContent = `${coin.name} (${coin.ticker})`;
+                
+                listItem.appendChild(link);
+                suggestionsList.appendChild(listItem);
+            });
+            suggestionsList.style.display = 'block'; // Make the full list visible
+        } else {
+            suggestionsList.style.display = 'none'; // Hide if no matches are found
+        }
+    });
 
-// Hide suggestions when clicking outside
-document.addEventListener('click', (e) => {
-    if (!searchInput.contains(e.target) && !suggestionsList.contains(e.target)) {
-        clearSuggestions();
-    }
+    // Add a global click listener to hide the suggestions when clicking elsewhere.
+    document.addEventListener('click', function(event) {
+        // Check if the click was outside of the search input and the suggestions list.
+        if (!searchInput.contains(event.target) && !suggestionsList.contains(event.target)) {
+            suggestionsList.style.display = 'none';
+        }
+    });
 });

@@ -48,8 +48,30 @@ function updatePriceElements(symbol, data) {
 
 function updateTopSection(sectionId, items) {
     const container = document.getElementById(sectionId);
-    container.innerHTML = items.map(([symbol, data]) => {
+    if (!container) return;
+
+    // --- MODIFICATION START ---
+    // Check if the items array is empty. If so, display a message.
+    if (!items || items.length === 0) {
+        let message = 'Data is currently unavailable.';
+        if (sectionId.includes('gainers')) {
+            message = 'No significant gainers now.';
+        } else if (sectionId.includes('losers')) {
+            message = 'No significant losers now.';
+        }
+        // Use a list item for consistent styling
+        container.innerHTML = `<li class="no-data-message">${message}</li>`;
+        return; // Exit the function early
+    }
+    // --- MODIFICATION END ---
+
+    // This part remains from the previous fix and works on non-empty arrays
+    container.innerHTML = items.map(item => {
+        const symbol = item.symbol;
+        const data = item;
         const coinInfo = coinDataMap[symbol];
+        if (!coinInfo) return ''; // Skip if symbol not in our map
+
         return `
             <li>
                 <img src="/static/images/${coinInfo.name}-${coinInfo.symbol}-logo.png" 
@@ -69,6 +91,7 @@ function updateTopSection(sectionId, items) {
         `;
     }).join('');
 }
+
 
 async function fetchLiveData() {
     try {
@@ -116,6 +139,7 @@ async function updateAllData() {
         const mockHistory = generateMockHistory(coinData.price);
         if (window.updateChart) updateChart(mockHistory);
     } else {
+        // This block runs on the market page
         Object.entries(data.live_data).forEach(([symbol, coinData]) => {
             updatePriceElements(symbol, coinData);
         });
@@ -128,10 +152,10 @@ async function updateAllData() {
 document.addEventListener('DOMContentLoaded', () => {
     updateAllData();
 
-    // Update every second
+    // Update every 5 seconds
     setInterval(() => {
         if (!document.hidden) updateAllData();
-    }, 1000);
+    }, 5000);
 
     // Show error if data doesn't load in 10s
     setTimeout(() => {

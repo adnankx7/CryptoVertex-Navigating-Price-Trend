@@ -1,0 +1,43 @@
+[2025-06-14 22:21:44,423] 57 root - INFO - Data paths config loaded from: F:\FYP-II\CryptoVertex\data_paths.json
+[2025-06-14 22:21:44,570] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-06-14 22:21:44,570] 97 werkzeug - INFO -  * Debugger PIN: 104-571-619
+[2025-06-14 22:21:45,111] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:21:45] "GET / HTTP/1.1" 200 -
+[2025-06-14 22:21:45,649] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:21:45] "GET / HTTP/1.1" 200 -
+[2025-06-14 22:21:46,751] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:21:46] "[36mGET /static/images/LSTM-ARCH.png HTTP/1.1[0m" 304 -
+[2025-06-14 22:21:46,765] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:21:46] "[36mGET /static/images/prediction%20(2).png HTTP/1.1[0m" 304 -
+[2025-06-14 22:21:46,767] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:21:46] "[36mGET /static/js/live_data.js HTTP/1.1[0m" 304 -
+[2025-06-14 22:21:46,776] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:21:46] "[36mGET /static/images/Crypto.png HTTP/1.1[0m" 304 -
+[2025-06-14 22:21:46,806] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:21:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+[2025-06-14 22:21:46,831] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:21:46] "GET /static/js/search.js HTTP/1.1" 200 -
+[2025-06-14 22:21:49,381] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:21:49] "GET /search_coins?q=b HTTP/1.1" 200 -
+[2025-06-14 22:21:50,150] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:21:50] "GET /live_data HTTP/1.1" 200 -
+[2025-06-14 22:21:50,150] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:21:50] "GET /live_data HTTP/1.1" 200 -
+[2025-06-14 22:21:50,150] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:21:50] "GET /live_data HTTP/1.1" 200 -
+[2025-06-14 22:21:50,150] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:21:50] "GET /live_data HTTP/1.1" 200 -
+[2025-06-14 22:21:50,150] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:21:50] "GET /live_data HTTP/1.1" 200 -
+[2025-06-14 22:21:50,150] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:21:50] "GET /live_data HTTP/1.1" 200 -
+[2025-06-14 22:21:50,150] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:21:50] "GET /live_data HTTP/1.1" 200 -
+[2025-06-14 22:21:50,497] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:21:50] "GET /search_coins?q=btc HTTP/1.1" 200 -
+[2025-06-14 22:21:52,022] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:21:52] "GET /live_data HTTP/1.1" 200 -
+[2025-06-14 22:21:57,019] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:21:57] "GET /live_data HTTP/1.1" 200 -
+[2025-06-14 22:22:22,029] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:22:22] "GET /live_data HTTP/1.1" 200 -
+[2025-06-14 22:22:27,025] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:22:27] "GET /live_data HTTP/1.1" 200 -
+[2025-06-14 22:22:28,162] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:22:28] "GET /search_coins?q=bg HTTP/1.1" 200 -
+[2025-06-14 22:22:29,706] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:22:29] "GET /search_coins?q=bf HTTP/1.1" 200 -
+[2025-06-14 22:22:30,078] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:22:30] "GET /search_coins?q=b HTTP/1.1" 200 -
+[2025-06-14 22:22:30,620] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:22:30] "GET /search_coins?q=bt HTTP/1.1" 200 -
+[2025-06-14 22:22:31,066] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:22:31] "GET /search_coins?q=btx HTTP/1.1" 200 -
+[2025-06-14 22:22:32,952] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:22:32] "GET /live_data HTTP/1.1" 200 -
+[2025-06-14 22:22:37,022] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:22:37] "GET /live_data HTTP/1.1" 200 -
+[2025-06-14 22:22:42,025] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:22:42] "GET /live_data HTTP/1.1" 200 -
+[2025-06-14 22:22:43,797] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:22:43] "GET /search_coins?q=n HTTP/1.1" 200 -
+[2025-06-14 22:22:44,631] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:22:44] "GET /search_coins?q=v HTTP/1.1" 200 -
+[2025-06-14 22:22:45,310] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:22:45] "GET /search_coins?q=b HTTP/1.1" 200 -
+[2025-06-14 22:22:46,532] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:22:46] "GET /search_coins?q=by HTTP/1.1" 200 -
+[2025-06-14 22:22:47,029] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:22:47] "GET /live_data HTTP/1.1" 200 -
+[2025-06-14 22:22:47,383] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:22:47] "GET /search_coins?q=b HTTP/1.1" 200 -
+[2025-06-14 22:22:47,854] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:22:47] "GET /search_coins?q=bt HTTP/1.1" 200 -
+[2025-06-14 22:22:52,019] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:22:52] "GET /live_data HTTP/1.1" 200 -
+[2025-06-14 22:22:57,303] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:22:57] "GET /live_data HTTP/1.1" 200 -
+[2025-06-14 22:23:07,117] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 22:23:07] "GET /live_data HTTP/1.1" 200 -
+[2025-06-14 22:23:40,712] 97 werkzeug - INFO -  * Detected change in 'F:\\FYP-II\\CryptoVertex\\app.py', reloading
