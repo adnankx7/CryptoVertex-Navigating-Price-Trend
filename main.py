@@ -1,10 +1,9 @@
 import subprocess
 import sys
 import pathlib
-from src.logger import logging
-import schedule
 import time
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timedelta
+from src.logger import logging
 
 # Configure logging
 logging.basicConfig(
@@ -12,8 +11,6 @@ logging.basicConfig(
     format='[%(asctime)s] [MAIN_ORCHESTRATOR] %(message)s',
     datefmt='%Y-%m-%d %H:%M:%S'
 )
-
-UTC_PLUS_5 = timezone(timedelta(hours=5))
 
 def get_project_root() -> pathlib.Path:
     return pathlib.Path(__file__).resolve().parent
@@ -53,10 +50,10 @@ def run_script(script_path: str, project_root: pathlib.Path) -> bool:
 
 def run_pipeline():
     project_root = get_project_root()
-    logging.info("Running pipeline...")
+    logging.info("🚀 Running pipeline...")
 
     scripts_to_run = [
-        pathlib.Path("src") / "scraper.py",
+        pathlib.Path("src") / "scraper" / "scraper.py", 
         pathlib.Path("src") / "components" / "data_transformation.py",
         pathlib.Path("src") / "components" / "data_trainer.py",
         pathlib.Path("src") / "pipeline" / "predict_pipeline.py"
@@ -64,25 +61,40 @@ def run_pipeline():
 
     for script_rel_path in scripts_to_run:
         if not run_script(str(script_rel_path), project_root):
-            logging.info(f"Pipeline stopped due to failure in {script_rel_path}.")
+            logging.info(f"❌ Pipeline stopped due to failure in {script_rel_path}.")
             return
 
-    logging.info("Pipeline execution completed.")
-
-def get_utc_now_plus_5_time():
-    return datetime.now(timezone.utc).astimezone(UTC_PLUS_5).strftime("%H:%M")
+    logging.info("✅ Pipeline execution completed.")
 
 def run_scheduler():
-
-    RUN_TIME_UTC_PLUS_5 = "00:00"
-
-    schedule.every().day.at(RUN_TIME_UTC_PLUS_5).do(run_pipeline)
-
-    logging.info(f"Scheduled daily pipeline run at {RUN_TIME_UTC_PLUS_5} UTC+5")
+    logging.info("🔄 Waiting for daily run at 05:00:10 AM local time...")
 
     while True:
-        schedule.run_pending()
-        time.sleep(30)
+        now = datetime.now()
+        target_time = now.replace(hour=5, minute=0, second=10, microsecond=0)
+
+        # If current time already past today’s 5:00:10, schedule for next day
+        if now >= target_time:
+            target_time += timedelta(days=1)
+
+        wait_seconds = (target_time - now).total_seconds()
+        logging.info(f"⏳ Sleeping for {int(wait_seconds)} seconds until next 05:00:10 AM...")
+
+        try:
+            time.sleep(wait_seconds)
+        except KeyboardInterrupt:
+            logging.info("Scheduler interrupted by user. Exiting...")
+            break
+
+        logging.info(f"🕔 {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} local time — running pipeline...")
+        run_pipeline()
+
+        # Sleep 24 hours before next run
+        try:
+            time.sleep(24 * 60 * 60)
+        except KeyboardInterrupt:
+            logging.info("Scheduler interrupted by user. Exiting...")
+            break
 
 if __name__ == "__main__":
     run_scheduler()

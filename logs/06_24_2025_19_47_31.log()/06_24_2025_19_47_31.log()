@@ -1,0 +1,15 @@
+[2025-06-24 19:49:20,356] 57 root - INFO - Data paths config loaded from: F:\FYP-II\CryptoVertex\data_paths.json
+[2025-06-24 19:49:23,022] 81 root - INFO - Scheduled daily pipeline run at 00:00 UTC+5
+[2025-06-24 19:49:23,028] 56 root - INFO - Running pipeline...
+[2025-06-24 19:49:23,028] 23 root - INFO - Attempting to run script: F:\FYP-II\CryptoVertex\src\scraper\scraper.py
+[2025-06-24 19:49:23,028] 29 root - INFO - Starting execution of: src\scraper\scraper.py
+[2025-06-24 19:49:23,649] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-06-24 19:49:23,649] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2025-06-24 19:49:23,658] 97 werkzeug - INFO -  * Restarting with stat
+[2025-06-24 19:50:01,440] 45 root - INFO - Successfully finished execution of: src\scraper\scraper.py
+[2025-06-24 19:50:01,440] 23 root - INFO - Attempting to run script: F:\FYP-II\CryptoVertex\src\components\data_transformation.py
+[2025-06-24 19:50:01,440] 29 root - INFO - Starting execution of: src\components\data_transformation.py
+[2025-06-24 19:50:11,693] 45 root - INFO - Successfully finished execution of: src\components\data_transformation.py
+[2025-06-24 19:50:11,693] 23 root - INFO - Attempting to run script: F:\FYP-II\CryptoVertex\src\components\data_trainer.py
+[2025-06-24 19:50:11,693] 29 root - INFO - Starting execution of: src\components\data_trainer.py

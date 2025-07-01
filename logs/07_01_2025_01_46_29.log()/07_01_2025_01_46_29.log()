@@ -1,0 +1,54 @@
+[2025-07-01 01:46:29,789] 233 root - INFO - Successfully loaded data paths from F:\FYP-II\CryptoVertex\data_paths.json
+[2025-07-01 01:46:29,792] 244 root - INFO - --- Starting training pipeline for ADA_USDT ---
+[2025-07-01 01:46:29,789] 233 root - INFO - Successfully loaded data paths from F:\FYP-II\CryptoVertex\data_paths.json
+[2025-07-01 01:46:29,794] 244 root - INFO - --- Starting training pipeline for ADA_USDT ---
+[2025-07-01 01:46:30,212] 268 root - INFO - Loaded data for ADA_USDT.
+[2025-07-01 01:46:30,214] 67 root - INFO - Starting model training process for ADA_USDT...
+[2025-07-01 01:46:30,218] 268 root - INFO - Loaded data for ADA_USDT.
+[2025-07-01 01:46:30,218] 67 root - INFO - Starting model training process for ADA_USDT...
+[2025-07-01 01:46:30,694] 36 root - INFO - Object saved to F:\FYP-II\CryptoVertex\artifacts\ADA_USDT\scalers\ADA_USDT_scaler.pkl
+[2025-07-01 01:46:30,694] 93 root - INFO - Saved MinMaxScaler for ADA_USDT to: F:\FYP-II\CryptoVertex\artifacts\ADA_USDT\scalers\ADA_USDT_scaler.pkl
+[2025-07-01 01:46:30,694] 36 root - INFO - Object saved to F:\FYP-II\CryptoVertex\artifacts\ADA_USDT\scalers\ADA_USDT_scaler.pkl
+[2025-07-01 01:46:30,694] 93 root - INFO - Saved MinMaxScaler for ADA_USDT to: F:\FYP-II\CryptoVertex\artifacts\ADA_USDT\scalers\ADA_USDT_scaler.pkl
+[2025-07-01 01:46:31,350] 289 root - INFO - --- Completed training pipeline for ADA_USDT ---
+[2025-07-01 01:46:31,350] 244 root - INFO - --- Starting training pipeline for BTC_USDT ---
+[2025-07-01 01:46:31,354] 289 root - INFO - --- Completed training pipeline for ADA_USDT ---
+[2025-07-01 01:46:31,354] 244 root - INFO - --- Starting training pipeline for BTC_USDT ---
+[2025-07-01 01:46:31,887] 268 root - INFO - Loaded data for BTC_USDT.
+[2025-07-01 01:46:31,887] 67 root - INFO - Starting model training process for BTC_USDT...
+[2025-07-01 01:46:31,902] 268 root - INFO - Loaded data for BTC_USDT.
+[2025-07-01 01:46:31,902] 67 root - INFO - Starting model training process for BTC_USDT...
+[2025-07-01 01:46:31,946] 36 root - INFO - Object saved to F:\FYP-II\CryptoVertex\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2025-07-01 01:46:31,946] 93 root - INFO - Saved MinMaxScaler for BTC_USDT to: F:\FYP-II\CryptoVertex\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2025-07-01 01:46:31,967] 36 root - INFO - Object saved to F:\FYP-II\CryptoVertex\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2025-07-01 01:46:31,967] 93 root - INFO - Saved MinMaxScaler for BTC_USDT to: F:\FYP-II\CryptoVertex\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2025-07-01 01:46:31,988] 289 root - INFO - --- Completed training pipeline for BTC_USDT ---
+[2025-07-01 01:46:31,988] 244 root - INFO - --- Starting training pipeline for ETH_USDT ---
+[2025-07-01 01:46:31,988] 289 root - INFO - --- Completed training pipeline for BTC_USDT ---
+[2025-07-01 01:46:31,988] 244 root - INFO - --- Starting training pipeline for ETH_USDT ---
+[2025-07-01 01:46:33,218] 268 root - INFO - Loaded data for ETH_USDT.
+[2025-07-01 01:46:33,218] 67 root - INFO - Starting model training process for ETH_USDT...
+[2025-07-01 01:46:33,220] 268 root - INFO - Loaded data for ETH_USDT.
+[2025-07-01 01:46:33,222] 67 root - INFO - Starting model training process for ETH_USDT...
+[2025-07-01 01:46:33,227] 36 root - INFO - Object saved to F:\FYP-II\CryptoVertex\artifacts\ETH_USDT\scalers\ETH_USDT_scaler.pkl
+[2025-07-01 01:46:33,227] 93 root - INFO - Saved MinMaxScaler for ETH_USDT to: F:\FYP-II\CryptoVertex\artifacts\ETH_USDT\scalers\ETH_USDT_scaler.pkl
+[2025-07-01 01:46:33,229] 36 root - INFO - Object saved to F:\FYP-II\CryptoVertex\artifacts\ETH_USDT\scalers\ETH_USDT_scaler.pkl
+[2025-07-01 01:46:33,230] 93 root - INFO - Saved MinMaxScaler for ETH_USDT to: F:\FYP-II\CryptoVertex\artifacts\ETH_USDT\scalers\ETH_USDT_scaler.pkl
+[2025-07-01 01:46:33,358] 289 root - INFO - --- Completed training pipeline for ETH_USDT ---
+[2025-07-01 01:46:33,359] 244 root - INFO - --- Starting training pipeline for SOL_USDT ---
+[2025-07-01 01:46:33,359] 289 root - INFO - --- Completed training pipeline for ETH_USDT ---
+[2025-07-01 01:46:33,359] 244 root - INFO - --- Starting training pipeline for SOL_USDT ---
+[2025-07-01 01:46:33,946] 268 root - INFO - Loaded data for SOL_USDT.
+[2025-07-01 01:46:33,946] 67 root - INFO - Starting model training process for SOL_USDT...
+[2025-07-01 01:46:33,961] 36 root - INFO - Object saved to F:\FYP-II\CryptoVertex\artifacts\SOL_USDT\scalers\SOL_USDT_scaler.pkl
+[2025-07-01 01:46:33,961] 93 root - INFO - Saved MinMaxScaler for SOL_USDT to: F:\FYP-II\CryptoVertex\artifacts\SOL_USDT\scalers\SOL_USDT_scaler.pkl
+[2025-07-01 01:46:33,999] 268 root - INFO - Loaded data for SOL_USDT.
+[2025-07-01 01:46:34,000] 67 root - INFO - Starting model training process for SOL_USDT...
+[2025-07-01 01:46:34,010] 36 root - INFO - Object saved to F:\FYP-II\CryptoVertex\artifacts\SOL_USDT\scalers\SOL_USDT_scaler.pkl
+[2025-07-01 01:46:34,010] 93 root - INFO - Saved MinMaxScaler for SOL_USDT to: F:\FYP-II\CryptoVertex\artifacts\SOL_USDT\scalers\SOL_USDT_scaler.pkl
+[2025-07-01 01:46:34,483] 127 root - INFO - Starting hyperparameter tuning for SOL_USDT...
+[2025-07-01 01:46:34,503] 127 root - INFO - Starting hyperparameter tuning for SOL_USDT...
+[2025-07-01 01:46:50,478] 149 tensorflow - WARNING - From F:\FYP-II\CryptoVertex\venv\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+[2025-07-01 01:46:50,472] 149 tensorflow - WARNING - From F:\FYP-II\CryptoVertex\venv\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+

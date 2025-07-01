@@ -1,0 +1,107 @@
+[2025-06-17 12:15:25,853] 57 root - INFO - Data paths config loaded from: F:\FYP-II\CryptoVertex\data_paths.json
+[2025-06-17 12:15:25,968] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-06-17 12:15:25,974] 97 werkzeug - INFO -  * Debugger PIN: 104-571-619
+[2025-06-17 12:15:26,924] 105 root - INFO - Starting prediction for BTC_USDT...
+[2025-06-17 12:15:27,355] 105 root - INFO - Starting prediction for BTC_USDT...
+[2025-06-17 12:15:27,454] 105 root - INFO - Starting prediction for BTC_USDT...
+[2025-06-17 12:15:32,337] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:32] "GET / HTTP/1.1" 200 -
+[2025-06-17 12:15:32,351] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:32] "GET / HTTP/1.1" 200 -
+[2025-06-17 12:15:32,362] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:32] "GET / HTTP/1.1" 200 -
+[2025-06-17 12:15:32,364] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:32] "GET / HTTP/1.1" 200 -
+[2025-06-17 12:15:32,791] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:32] "GET / HTTP/1.1" 200 -
+[2025-06-17 12:15:34,786] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+[2025-06-17 12:15:35,058] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:35] "[36mGET /static/images/LSTM-ARCH.png HTTP/1.1[0m" 304 -
+[2025-06-17 12:15:35,229] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:35] "[36mGET /static/images/prediction%20(2).png HTTP/1.1[0m" 304 -
+[2025-06-17 12:15:35,558] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:35] "[36mGET /static/images/Crypto.png HTTP/1.1[0m" 304 -
+[2025-06-17 12:15:37,256] 259 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2025-06-17 12:15:37,256] 259 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2025-06-17 12:15:37,324] 259 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2025-06-17 12:15:37,446] 58 root - INFO - Object loaded successfully from: F:\FYP-II\CryptoVertex\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2025-06-17 12:15:37,506] 58 root - INFO - Object loaded successfully from: F:\FYP-II\CryptoVertex\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2025-06-17 12:15:37,558] 58 root - INFO - Object loaded successfully from: F:\FYP-II\CryptoVertex\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2025-06-17 12:15:38,044] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:38] "[36mGET /static/js/search.js HTTP/1.1[0m" 304 -
+[2025-06-17 12:15:38,055] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:38] "[36mGET /static/js/live_data.js HTTP/1.1[0m" 304 -
+[2025-06-17 12:15:39,057] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:39] "GET /api/search_coins HTTP/1.1" 200 -
+[2025-06-17 12:15:39,192] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:39] "GET /live_data HTTP/1.1" 200 -
+[2025-06-17 12:15:40,192] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:40] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+[2025-06-17 12:15:43,211] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:43] "GET /live_data HTTP/1.1" 200 -
+[2025-06-17 12:15:45,109] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:45] "GET / HTTP/1.1" 200 -
+[2025-06-17 12:15:45,654] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+[2025-06-17 12:15:45,991] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:45] "[36mGET /static/images/Crypto.png HTTP/1.1[0m" 304 -
+[2025-06-17 12:15:46,344] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:46] "[36mGET /static/images/prediction%20(2).png HTTP/1.1[0m" 304 -
+[2025-06-17 12:15:46,396] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:46] "[36mGET /static/images/LSTM-ARCH.png HTTP/1.1[0m" 304 -
+[2025-06-17 12:15:46,552] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:46] "[36mGET /static/js/live_data.js HTTP/1.1[0m" 304 -
+[2025-06-17 12:15:46,931] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:46] "[36mGET /static/js/search.js HTTP/1.1[0m" 304 -
+[2025-06-17 12:15:47,246] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:47] "GET /live_data HTTP/1.1" 200 -
+[2025-06-17 12:15:47,340] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:47] "GET /api/search_coins HTTP/1.1" 200 -
+[2025-06-17 12:15:48,237] 137 root - INFO - Predicted next price for BTC_USDT: 100159.4159
+[2025-06-17 12:15:48,257] 137 root - INFO - Predicted next price for BTC_USDT: 100159.4159
+[2025-06-17 12:15:48,259] 137 root - INFO - Predicted next price for BTC_USDT: 100159.4159
+[2025-06-17 12:15:48,733] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:48] "GET /btc HTTP/1.1" 200 -
+[2025-06-17 12:15:48,773] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:48] "GET /btc HTTP/1.1" 200 -
+[2025-06-17 12:15:48,773] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:48] "GET /btc HTTP/1.1" 200 -
+[2025-06-17 12:15:52,125] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:52] "GET /live_data HTTP/1.1" 200 -
+[2025-06-17 12:15:54,307] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:54] "GET /market HTTP/1.1" 200 -
+[2025-06-17 12:15:54,508] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+[2025-06-17 12:15:55,060] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:55] "[36mGET /static/images/Crypto.png HTTP/1.1[0m" 304 -
+[2025-06-17 12:15:55,372] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:55] "[36mGET /static/js/live_data.js HTTP/1.1[0m" 304 -
+[2025-06-17 12:15:55,558] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:55] "[36mGET /static/images/ethereum-eth-logo.png HTTP/1.1[0m" 304 -
+[2025-06-17 12:15:55,810] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:55] "[36mGET /static/images/solana-sol-logo.png HTTP/1.1[0m" 304 -
+[2025-06-17 12:15:55,858] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:55] "[36mGET /static/images/bitcoin-btc-logo.png HTTP/1.1[0m" 304 -
+[2025-06-17 12:15:55,973] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:55] "[36mGET /static/js/search.js HTTP/1.1[0m" 304 -
+[2025-06-17 12:15:56,003] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:56] "[36mGET /static/images/cardano-ada-logo.png HTTP/1.1[0m" 304 -
+[2025-06-17 12:15:56,374] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:56] "[36mGET /static/images/xrp-xrp-logo.png HTTP/1.1[0m" 304 -
+[2025-06-17 12:15:56,509] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:56] "GET /live_data HTTP/1.1" 200 -
+[2025-06-17 12:15:56,558] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:56] "GET /api/search_coins HTTP/1.1" 200 -
+[2025-06-17 12:15:57,885] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:57] "GET /static/styles.css HTTP/1.1" 200 -
+[2025-06-17 12:15:58,393] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:58] "GET /static/images/Crypto.png HTTP/1.1" 200 -
+[2025-06-17 12:15:58,403] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:15:58] "GET /static/images/prediction%20(2).png HTTP/1.1" 200 -
+[2025-06-17 12:16:01,208] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:16:01] "GET /live_data HTTP/1.1" 200 -
+[2025-06-17 12:16:02,623] 105 root - INFO - Starting prediction for BTC_USDT...
+[2025-06-17 12:16:02,828] 259 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2025-06-17 12:16:02,922] 58 root - INFO - Object loaded successfully from: F:\FYP-II\CryptoVertex\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2025-06-17 12:16:04,339] 105 root - INFO - Starting prediction for ETH_USDT...
+[2025-06-17 12:16:04,442] 137 root - INFO - Predicted next price for BTC_USDT: 100159.4159
+[2025-06-17 12:16:04,443] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:16:04] "GET /btc HTTP/1.1" 200 -
+[2025-06-17 12:16:04,945] 259 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2025-06-17 12:16:05,037] 58 root - INFO - Object loaded successfully from: F:\FYP-II\CryptoVertex\artifacts\ETH_USDT\scalers\ETH_USDT_scaler.pkl
+[2025-06-17 12:16:06,286] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:16:06] "GET /live_data HTTP/1.1" 200 -
+[2025-06-17 12:16:07,026] 105 root - INFO - Starting prediction for BTC_USDT...
+[2025-06-17 12:16:07,224] 259 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2025-06-17 12:16:07,262] 58 root - INFO - Object loaded successfully from: F:\FYP-II\CryptoVertex\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2025-06-17 12:16:07,527] 157 tensorflow - WARNING - 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001EF65256160> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[2025-06-17 12:16:07,711] 137 root - INFO - Predicted next price for ETH_USDT: 2549.8860
+[2025-06-17 12:16:08,320] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:16:08] "GET /eth HTTP/1.1" 200 -
+[2025-06-17 12:16:08,607] 157 tensorflow - WARNING - 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001EF67FA9800> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[2025-06-17 12:16:09,141] 137 root - INFO - Predicted next price for BTC_USDT: 100159.4159
+[2025-06-17 12:16:09,142] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:16:09] "GET /btc HTTP/1.1" 200 -
+[2025-06-17 12:16:09,352] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:16:09] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+[2025-06-17 12:16:09,589] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:16:09] "[36mGET /static/images/Crypto.png HTTP/1.1[0m" 304 -
+[2025-06-17 12:16:09,658] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:16:09] "[36mGET /static/images/bitcoin-btc-logo.png HTTP/1.1[0m" 304 -
+[2025-06-17 12:16:09,969] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:16:09] "[36mGET /static/js/live_data.js HTTP/1.1[0m" 304 -
+[2025-06-17 12:16:10,071] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:16:10] "[36mGET /static/js/search.js HTTP/1.1[0m" 304 -
+[2025-06-17 12:16:11,460] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:16:11] "[36mGET /static/js/utils_chart.js HTTP/1.1[0m" 304 -
+[2025-06-17 12:16:11,876] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:16:11] "GET /live_data HTTP/1.1" 200 -
+[2025-06-17 12:16:11,924] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:16:11] "GET /api/search_coins HTTP/1.1" 200 -
+[2025-06-17 12:16:12,303] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:16:12] "GET /historical_data/BTC%2FUSDT HTTP/1.1" 200 -
+[2025-06-17 12:16:16,516] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:16:16] "GET /live_data HTTP/1.1" 200 -
+[2025-06-17 12:16:22,120] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:16:22] "GET /live_data HTTP/1.1" 200 -
+[2025-06-17 12:16:26,516] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:16:26] "GET /live_data HTTP/1.1" 200 -
+[2025-06-17 12:16:30,266] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:16:30] "GET /static/images/LSTM-ARCH.png HTTP/1.1" 200 -
+[2025-06-17 12:16:31,588] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:16:31] "GET /live_data HTTP/1.1" 200 -
+[2025-06-17 12:16:32,307] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:16:32] "GET /static/js/live_data.js HTTP/1.1" 200 -
+[2025-06-17 12:16:32,620] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:16:32] "GET /static/js/search.js HTTP/1.1" 200 -
+[2025-06-17 12:16:32,854] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:16:32] "GET /live_data HTTP/1.1" 200 -
+[2025-06-17 12:16:36,525] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:16:36] "GET /live_data HTTP/1.1" 200 -
+[2025-06-17 12:16:36,570] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:16:36] "GET /api/search_coins HTTP/1.1" 200 -
+[2025-06-17 12:16:40,840] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:16:40] "GET /static/images/favicon.svg HTTP/1.1" 200 -
+[2025-06-17 12:16:41,525] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:16:41] "GET /live_data HTTP/1.1" 200 -
+[2025-06-17 12:16:46,535] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:16:46] "GET /live_data HTTP/1.1" 200 -
+[2025-06-17 12:16:51,540] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:16:51] "GET /live_data HTTP/1.1" 200 -
+[2025-06-17 12:16:57,314] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:16:57] "GET /live_data HTTP/1.1" 200 -
+[2025-06-17 12:17:01,521] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:17:01] "GET /live_data HTTP/1.1" 200 -
+[2025-06-17 12:17:06,520] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:17:06] "GET /live_data HTTP/1.1" 200 -
+[2025-06-17 12:17:11,525] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:17:11] "GET /live_data HTTP/1.1" 200 -
+[2025-06-17 12:17:16,525] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:17:16] "GET /live_data HTTP/1.1" 200 -
+[2025-06-17 12:17:21,538] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:17:21] "GET /live_data HTTP/1.1" 200 -
+[2025-06-17 12:17:26,635] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 12:17:26] "GET /live_data HTTP/1.1" 200 -

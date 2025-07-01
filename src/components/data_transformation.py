@@ -11,40 +11,21 @@ from src.exception import CustomException
 
 @dataclass
 class DataTransformationConfig:
-    """
-    Configuration for data transformation process.
-    """
+
     raw_data_folder: str = os.path.join(os.path.dirname(__file__), '../../data')
     output_folder: str = os.path.join(os.path.dirname(__file__), '../../artifacts')
     coin_list: list = field(default_factory=lambda: ['ETH_USDT', 'BTC_USDT', 'XRP_USDT', 'SOL_USDT', 'ADA_USDT'])
     column_names: list = field(default_factory=lambda: ['Timestamp', 'Open', 'High', 'Low', 'Price', 'Volume'])
 
 class DataTransformation:
-    """
-    Class to handle data transformation including reading raw data,
-    applying technical indicators, splitting datasets, and saving
-    the processed data into artifacts folder.
-    """
+
     def __init__(self):
-        """
-        Initialize DataTransformation with configuration and ensure output folder exists.
-        """
+
         self.config = DataTransformationConfig()
         os.makedirs(self.config.output_folder, exist_ok=True)
 
     def add_features(self, df: pd.DataFrame, period=14, ema_span=5, sma_window=5) -> pd.DataFrame:
-        """
-        Add technical indicators RSI, EMA, and SMA to the dataframe.
 
-        Args:
-            df (pd.DataFrame): Input dataframe with price data.
-            period (int): Period for RSI calculation.
-            ema_span (int): Span for EMA calculation.
-            sma_window (int): Window size for SMA calculation.
-
-        Returns:
-            pd.DataFrame: Dataframe with added technical indicator columns.
-        """
         df = df.copy()
         delta = df['Price'].diff()
         gain = delta.where(delta > 0, 0)
@@ -64,14 +45,7 @@ class DataTransformation:
         return df.dropna()
 
     def transform_and_save(self):
-        """
-        Perform the data transformation process:
-        - Read raw CSV files for each coin.
-        - Convert timestamp and sort data.
-        - Add technical indicators and target.
-        - Split data into train, validation, and test sets.
-        - Save the splits into the artifacts folder.
-        """
+
         try:
             logging.info("Starting data transformation")
 
@@ -114,9 +88,7 @@ class DataTransformation:
             raise CustomException("Error in data transformation", e)
 
     def run(self):
-        """
-        External method to run the data transformation process.
-        """
+
         self.transform_and_save()
 
 if __name__ == "__main__":

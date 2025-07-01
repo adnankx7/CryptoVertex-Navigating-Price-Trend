@@ -1,0 +1,12 @@
+[2025-07-01 06:46:32,264] 96 root - WARNING - Retry 1/3 loading markets for binance: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2025-07-01 06:47:32,273] 96 root - WARNING - Retry 2/3 loading markets for binance: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2025-07-01 06:48:16,275] 115 root - ERROR - CustomException while scraping BTC/USDT: Error occurred in python script name [F:\FYP-II\CryptoVertex\src\scraper\scraper.py] line number [92] error message[Failed to load markets for binance: binance GET https://api.binance.com/api/v3/exchangeInfo]
+[2025-07-01 06:48:16,275] 133 root - ERROR - Error scraping data for BTC/USDT: Error occurred in python script name [F:\FYP-II\CryptoVertex\src\scraper\scraper.py] line number [92] error message[Failed to load markets for binance: binance GET https://api.binance.com/api/v3/exchangeInfo]
+[2025-07-01 06:51:54,425] 96 root - WARNING - Retry 1/3 loading markets for binance: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2025-07-01 06:52:56,416] 112 root - WARNING - No OHLCV data fetched for ADA/USDT. Nothing saved.
+[2025-07-01 06:53:04,286] 112 root - WARNING - No OHLCV data fetched for ETH/USDT. Nothing saved.
+[2025-07-01 06:53:24,919] 112 root - WARNING - No OHLCV data fetched for XRP/USDT. Nothing saved.
+[2025-07-01 06:53:52,718] 112 root - WARNING - No OHLCV data fetched for SOL/USDT. Nothing saved.
+[2025-07-01 06:53:52,794] 136 root - INFO - Start time: 2025-07-01 06:45:49.358211
+[2025-07-01 06:53:52,794] 137 root - INFO - End time: 2025-07-01 06:53:52.793978
+[2025-07-01 06:53:52,794] 138 root - INFO - Total Running time: 0:08:03.435767

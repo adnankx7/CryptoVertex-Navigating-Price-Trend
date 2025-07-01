@@ -1,0 +1,4 @@
+[2025-06-24 18:28:47,793] 54 root - INFO - Running pipeline...
+[2025-06-24 18:28:47,793] 21 root - INFO - Attempting to run script: F:\FYP-II\CryptoVertex\src\scraper.py
+[2025-06-24 18:28:47,793] 24 root - INFO - Script not found at F:\FYP-II\CryptoVertex\src\scraper.py
+[2025-06-24 18:28:47,793] 65 root - INFO - Pipeline stopped due to failure in src\scraper.py.

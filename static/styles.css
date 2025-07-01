@@ -243,6 +243,12 @@ a:hover, a:focus {
     font-weight: 600;
 }
 
+/* Market Table Container */
+.market-table-container {
+    overflow-x: auto;
+    padding: 0 15px;
+}
+
 /* Market Table */
 .market-table {
     width: 100%;
@@ -255,6 +261,7 @@ a:hover, a:focus {
     padding: 15px;
     text-align: left;
     border-bottom: 1px solid #555555;
+    vertical-align: middle; /* Crucial fix for alignment */
 }
 
 .market-table th {
@@ -285,13 +292,25 @@ a:hover, a:focus {
     font-size: 0.9em;
     margin-left: 32px;
     font-weight: 250;
+    display: block; /* Ensure proper line break */
 }
 
-.market-table-title {
-    font-size: 1.5rem;
-    margin: 1.5rem 0;
-    padding-left: 1rem;
+/* Action Column */
+.action-cell {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.trade-icon {
+    cursor: pointer;
     color: #E0E0E0;
+    transition: color 0.2s;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.trade-icon:hover {
+    color: #FFD700;
 }
 
 .more-link {
@@ -306,6 +325,13 @@ a:hover, a:focus {
 .more-link:hover {
     text-decoration: underline;
     color: #FFED4A;
+}
+
+.market-table-title {
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+    padding-left: 1rem;
+    color: #E0E0E0;
 }
 
 /* Coin Page */

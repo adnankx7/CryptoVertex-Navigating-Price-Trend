@@ -1,0 +1,44 @@
+[2025-07-01 06:59:34,323] 57 root - INFO - Data paths config loaded from: F:\FYP-II\CryptoVertex\data_paths.json
+[2025-07-01 06:59:34,353] 70 root - INFO - \U0001f504 Waiting for next UTC 00:00 + 10s to run pipeline daily...
+[2025-07-01 06:59:34,353] 79 root - INFO - \u23f3 Sleeping for 79225 seconds until next UTC 00:00...
+[2025-07-01 06:59:34,353] 53 root - INFO - Running pipeline...
+[2025-07-01 06:59:34,353] 20 root - INFO - Attempting to run script: F:\FYP-II\CryptoVertex\src\scraper\scraper.py
+[2025-07-01 06:59:34,353] 26 root - INFO - Starting execution of: src\scraper\scraper.py
+[2025-07-01 06:59:34,367] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-07-01 06:59:34,371] 97 werkzeug - INFO -  * Debugger PIN: 104-571-619
+[2025-07-01 06:59:59,002] 42 root - INFO - Successfully finished execution of: src\scraper\scraper.py
+[2025-07-01 06:59:59,002] 20 root - INFO - Attempting to run script: F:\FYP-II\CryptoVertex\src\components\data_transformation.py
+[2025-07-01 06:59:59,002] 26 root - INFO - Starting execution of: src\components\data_transformation.py
+[2025-07-01 07:00:03,029] 42 root - INFO - Successfully finished execution of: src\components\data_transformation.py
+[2025-07-01 07:00:03,029] 20 root - INFO - Attempting to run script: F:\FYP-II\CryptoVertex\src\components\data_trainer.py
+[2025-07-01 07:00:03,029] 26 root - INFO - Starting execution of: src\components\data_trainer.py
+[2025-07-01 07:00:35,073] 97 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 07:00:35] "GET /live_data HTTP/1.1" 200 -
+[2025-07-01 07:00:37,170] 97 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 07:00:37] "GET /market HTTP/1.1" 200 -
+[2025-07-01 07:00:37,669] 97 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 07:00:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+[2025-07-01 07:00:37,861] 97 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 07:00:37] "[36mGET /static/images/Crypto.png HTTP/1.1[0m" 304 -
+[2025-07-01 07:00:37,967] 97 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 07:00:37] "[36mGET /static/images/bitcoin-btc-logo.png HTTP/1.1[0m" 304 -
+[2025-07-01 07:00:37,970] 97 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 07:00:37] "[36mGET /static/images/ethereum-eth-logo.png HTTP/1.1[0m" 304 -
+[2025-07-01 07:00:38,011] 97 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 07:00:38] "[36mGET /static/images/cardano-ada-logo.png HTTP/1.1[0m" 304 -
+[2025-07-01 07:00:38,109] 97 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 07:00:38] "[36mGET /static/images/xrp-xrp-logo.png HTTP/1.1[0m" 304 -
+[2025-07-01 07:00:38,819] 97 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 07:00:38] "[36mGET /static/images/solana-sol-logo.png HTTP/1.1[0m" 304 -
+[2025-07-01 07:00:38,825] 97 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 07:00:38] "[36mGET /static/js/live_data.js HTTP/1.1[0m" 304 -
+[2025-07-01 07:00:39,003] 97 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 07:00:39] "[36mGET /static/js/search.js HTTP/1.1[0m" 304 -
+[2025-07-01 07:00:39,530] 97 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 07:00:39] "GET /api/search_coins HTTP/1.1" 200 -
+[2025-07-01 07:00:39,671] 97 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 07:00:39] "GET /live_data HTTP/1.1" 200 -
+[2025-07-01 07:00:46,780] 97 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 07:00:46] "GET /live_data HTTP/1.1" 200 -
+[2025-07-01 07:00:49,061] 105 root - INFO - Starting prediction for SOL_USDT...
+[2025-07-01 07:00:49,313] 97 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 07:00:49] "GET /live_data HTTP/1.1" 200 -
+[2025-07-01 07:00:50,173] 259 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2025-07-01 07:00:50,229] 58 root - INFO - Object loaded successfully from: F:\FYP-II\CryptoVertex\artifacts\SOL_USDT\scalers\SOL_USDT_scaler.pkl
+[2025-07-01 07:00:51,369] 137 root - INFO - Predicted next price for SOL_USDT: 155.4057
+[2025-07-01 07:00:51,611] 97 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 07:00:51] "GET /sol HTTP/1.1" 200 -
+[2025-07-01 07:00:52,265] 97 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 07:00:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+[2025-07-01 07:00:52,681] 97 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 07:00:52] "[36mGET /static/images/Crypto.png HTTP/1.1[0m" 304 -
+[2025-07-01 07:00:53,599] 97 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 07:00:53] "[36mGET /static/js/utils_chart.js HTTP/1.1[0m" 304 -
+[2025-07-01 07:00:53,825] 97 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 07:00:53] "[36mGET /static/js/search.js HTTP/1.1[0m" 304 -
+[2025-07-01 07:00:54,168] 97 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 07:00:54] "[36mGET /static/js/live_data.js HTTP/1.1[0m" 304 -
+[2025-07-01 07:00:54,350] 97 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 07:00:54] "[36mGET /static/images/solana-sol-logo.png HTTP/1.1[0m" 304 -
+[2025-07-01 07:00:54,735] 97 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 07:00:54] "GET /historical_data/SOL%2FUSDT HTTP/1.1" 200 -
+[2025-07-01 07:00:54,891] 97 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 07:00:54] "GET /live_data HTTP/1.1" 200 -
+[2025-07-01 07:00:55,042] 97 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 07:00:55] "GET /api/search_coins HTTP/1.1" 200 -
+[2025-07-01 07:00:59,600] 97 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 07:00:59] "GET /live_data HTTP/1.1" 200 -

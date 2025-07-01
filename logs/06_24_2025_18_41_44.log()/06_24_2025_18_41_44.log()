@@ -1,0 +1,13 @@
+[2025-06-24 18:41:44,563] 19 root - INFO - Project root resolved to: F:\FYP-II\CryptoVertex
+[2025-06-24 18:41:44,563] 57 root - INFO - Current working directory: F:\FYP-II\CryptoVertex
+[2025-06-24 18:41:44,563] 59 root - INFO - Listing files in src/ directory:
+[2025-06-24 18:41:44,565] 62 root - INFO - components, exception.py, logger.py, pipeline, scraper, utils.py, __init__.py, __pycache__
+[2025-06-24 18:41:44,565] 66 root - INFO - Running pipeline...
+[2025-06-24 18:41:44,565] 24 root - INFO - Checking script file at: F:\FYP-II\CryptoVertex\src\scraper\scraper.py
+[2025-06-24 18:41:44,565] 30 root - INFO - Starting execution of: src\scraper\scraper.py
+[2025-06-24 18:42:19,960] 46 root - INFO - Successfully finished execution of: src\scraper\scraper.py
+[2025-06-24 18:42:19,965] 24 root - INFO - Checking script file at: F:\FYP-II\CryptoVertex\src\components\data_transformation.py
+[2025-06-24 18:42:19,965] 30 root - INFO - Starting execution of: src\components\data_transformation.py
+[2025-06-24 18:42:27,646] 46 root - INFO - Successfully finished execution of: src\components\data_transformation.py
+[2025-06-24 18:42:27,648] 24 root - INFO - Checking script file at: F:\FYP-II\CryptoVertex\src\components\data_trainer.py
+[2025-06-24 18:42:27,648] 30 root - INFO - Starting execution of: src\components\data_trainer.py

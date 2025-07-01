@@ -28,84 +28,40 @@
                 <th>24H Change</th>
                 <th>Market Cap</th>
                 <th>24H Volume</th>
+                <th>Action</th>
             </tr>
         </thead>
         <tbody>
+            {% for symbol, coin_data in market_data_for_template.items() %}
             <tr>
-                <td>1</td>
+                <td>{{ loop.index }}</td>
                 <td>
-                    <img src="{{ url_for('static', filename='images/bitcoin-btc-logo.png') }}" 
+                    <img src="{{ url_for('static', filename='images/' + coin_data['logo_filename_stem'] + '-logo.png') }}" 
                          class="coin-logo" 
-                         alt="Bitcoin Logo">
-                    <span>BTC</span>
+                         alt="{{ coin_data['full_name'] }} Logo">
+                    <span>{{ coin_data['ticker_symbol'] }}</span>
                     <br>
-                    <span class="coin-name-full">&nbsp;&nbsp;&nbsp;&nbsp;Bitcoin</span>
+                    <span class="coin-name-full">&nbsp;&nbsp;&nbsp;&nbsp;{{ coin_data['full_name'] }}</span>
                 </td>
-                <td><span data-symbol="BTC/USDT" data-field="price">Loading...</span></td>
-                <td><span data-symbol="BTC/USDT" data-field="change">Loading...</span></td>
-                <td>$1.38T</td>
-                <td>$42.91B</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>
-                    <img src="{{ url_for('static', filename='images/ethereum-eth-logo.png') }}" 
-                         class="coin-logo" 
-                         alt="Ethereum Logo">
-                    <span>ETH</span>
-                    <br>
-                    <span class="coin-name-full">&nbsp;&nbsp;&nbsp;&nbsp;Ethereum</span>
+                <td><span data-symbol="{{ symbol }}" data-field="price">Loading...</span></td>
+                <td><span data-symbol="{{ symbol }}" data-field="change">Loading...</span></td>
+                <td>{{ coin_data['market_cap'] }}</td>
+                <td>{{ coin_data['volume'] }}</td>
+                <td class="action-cell">
+                    <!-- Get the URL slug from ticker_symbol -->
+                    <a href="/{{ coin_data['ticker_symbol'].lower() }}">
+                        <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" 
+                             class="trade-icon" data-symbol="{{ symbol }}">
+                            <path fill-rule="evenodd" clip-rule="evenodd" 
+                                  d="M16 3h3v4h3v9.999h-3v4h-3v-4h-3V7h3V3zm3 7h-3v3.999h3V10z" 
+                                  fill="currentColor"></path>
+                            <path d="M8 11h3v6H8v4H5v-4H2v-6h3V7h3v4z" 
+                                  fill="currentColor"></path>
+                        </svg>
+                    </a>
                 </td>
-                <td><span data-symbol="ETH/USDT" data-field="price">Loading...</span></td>
-                <td><span data-symbol="ETH/USDT" data-field="change">Loading...</span></td>
-                <td>$306.00B</td>
-                <td>$22.74B</td>
             </tr>
-            <tr>
-                <td>3</td>
-                <td>
-                    <img src="{{ url_for('static', filename='images/cardano-ada-logo.png') }}" 
-                         class="coin-logo" 
-                         alt="Cardano Logo">
-                    <span>ADA</span>
-                    <br>
-                    <span class="coin-name-full">&nbsp;&nbsp;&nbsp;&nbsp;Cardano</span>
-                </td>
-                <td><span data-symbol="ADA/USDT" data-field="price">Loading...</span></td>
-                <td><span data-symbol="ADA/USDT" data-field="change">Loading...</span></td>
-                <td>$88.60B</td>
-                <td>$1.12B</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>
-                    <img src="{{ url_for('static', filename='images/solana-sol-logo.png') }}" 
-                         class="coin-logo" 
-                         alt="Solana Logo">
-                    <span>SOL</span>
-                    <br>
-                    <span class="coin-name-full">&nbsp;&nbsp;&nbsp;&nbsp;Solana</span>
-                </td>
-                <td><span data-symbol="SOL/USDT" data-field="price">Loading...</span></td>
-                <td><span data-symbol="SOL/USDT" data-field="change">Loading...</span></td>
-                <td>$83.31B</td>
-                <td>$7.57B</td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>
-                    <img src="{{ url_for('static', filename='images/xrp-xrp-logo.png') }}" 
-                         class="coin-logo" 
-                         alt="XRP Logo">
-                    <span>XRP</span>
-                    <br>
-                    <span class="coin-name-full">&nbsp;&nbsp;&nbsp;&nbsp;Ripple</span>
-                </td>
-                <td><span data-symbol="XRP/USDT" data-field="price">Loading...</span></td>
-                <td><span data-symbol="XRP/USDT" data-field="change">Loading...</span></td>
-                <td>$42.91B</td>
-                <td>$1.83B</td>
-            </tr>
+            {% endfor %}
         </tbody>
     </table>
 </div>

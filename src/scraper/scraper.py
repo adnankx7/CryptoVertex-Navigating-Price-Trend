@@ -1,4 +1,3 @@
-import sched
 import time
 import ccxt
 import csv
@@ -11,9 +10,6 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(
 
 from src.exception import CustomException
 from src.logger import logging
-
-# Define the scheduler
-scheduler = sched.scheduler(time.time, time.sleep)
 
 # Ensure the 'data' directory exists
 DATA_DIR = os.path.join(os.path.dirname(__file__), '../../data')
@@ -61,8 +57,6 @@ def scrape_ohlcv(filename, exchange, max_retries, symbol, timeframe, since, limi
 
 def write_to_csv(filename, data):
     file_path = os.path.join(DATA_DIR, filename)
-
-    # Write new data
     with open(file_path, mode='a', newline='') as file:
         writer = csv.writer(file)
         writer.writerows(data)
@@ -143,10 +137,6 @@ def run_scrape():
     logging.info(f"End time: {end_time}")
     logging.info(f"Total Running time: {end_time - start_time}")
 
-def scheduled_scrape():
+# Run immediately, no scheduling
+if __name__ == "__main__":
     run_scrape()
-    scheduler.enter(86400, 1, scheduled_scrape)
-
-# Start the scheduler
-scheduler.enter(0, 1, scheduled_scrape)
-scheduler.run()

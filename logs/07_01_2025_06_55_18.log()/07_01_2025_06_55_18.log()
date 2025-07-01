@@ -1,0 +1,60 @@
+[2025-07-01 06:55:18,235] 165 root - INFO - predict_pipeline.py executed as main script.
+[2025-07-01 06:55:18,237] 57 root - INFO - Data paths config loaded from: F:\FYP-II\CryptoVertex\data_paths.json
+[2025-07-01 06:55:18,237] 146 root - INFO - Starting batch prediction for all configured coins.
+[2025-07-01 06:55:18,237] 105 root - INFO - Starting prediction for ADA_USDT...
+[2025-07-01 06:55:18,655] 259 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2025-07-01 06:55:18,738] 58 root - INFO - Object loaded successfully from: F:\FYP-II\CryptoVertex\artifacts\ADA_USDT\scalers\ADA_USDT_scaler.pkl
+[2025-07-01 06:55:18,776] 165 root - INFO - predict_pipeline.py executed as main script.
+[2025-07-01 06:55:18,776] 57 root - INFO - Data paths config loaded from: F:\FYP-II\CryptoVertex\data_paths.json
+[2025-07-01 06:55:18,777] 146 root - INFO - Starting batch prediction for all configured coins.
+[2025-07-01 06:55:18,777] 105 root - INFO - Starting prediction for ADA_USDT...
+[2025-07-01 06:55:19,225] 259 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2025-07-01 06:55:19,233] 58 root - INFO - Object loaded successfully from: F:\FYP-II\CryptoVertex\artifacts\ADA_USDT\scalers\ADA_USDT_scaler.pkl
+[2025-07-01 06:55:20,113] 137 root - INFO - Predicted next price for ADA_USDT: 0.5501
+[2025-07-01 06:55:20,116] 105 root - INFO - Starting prediction for BTC_USDT...
+[2025-07-01 06:55:20,423] 259 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2025-07-01 06:55:20,469] 58 root - INFO - Object loaded successfully from: F:\FYP-II\CryptoVertex\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2025-07-01 06:55:20,872] 137 root - INFO - Predicted next price for ADA_USDT: 0.5501
+[2025-07-01 06:55:20,873] 105 root - INFO - Starting prediction for BTC_USDT...
+[2025-07-01 06:55:21,089] 259 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2025-07-01 06:55:21,096] 58 root - INFO - Object loaded successfully from: F:\FYP-II\CryptoVertex\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2025-07-01 06:55:21,455] 137 root - INFO - Predicted next price for BTC_USDT: 104641.6517
+[2025-07-01 06:55:21,455] 105 root - INFO - Starting prediction for ETH_USDT...
+[2025-07-01 06:55:22,325] 259 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2025-07-01 06:55:22,384] 58 root - INFO - Object loaded successfully from: F:\FYP-II\CryptoVertex\artifacts\ETH_USDT\scalers\ETH_USDT_scaler.pkl
+[2025-07-01 06:55:22,811] 137 root - INFO - Predicted next price for BTC_USDT: 104641.6517
+[2025-07-01 06:55:22,811] 105 root - INFO - Starting prediction for ETH_USDT...
+[2025-07-01 06:55:22,993] 259 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2025-07-01 06:55:23,011] 58 root - INFO - Object loaded successfully from: F:\FYP-II\CryptoVertex\artifacts\ETH_USDT\scalers\ETH_USDT_scaler.pkl
+[2025-07-01 06:55:25,002] 137 root - INFO - Predicted next price for ETH_USDT: 2402.3191
+[2025-07-01 06:55:25,002] 105 root - INFO - Starting prediction for SOL_USDT...
+[2025-07-01 06:55:25,229] 259 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2025-07-01 06:55:25,275] 58 root - INFO - Object loaded successfully from: F:\FYP-II\CryptoVertex\artifacts\SOL_USDT\scalers\SOL_USDT_scaler.pkl
+[2025-07-01 06:55:25,595] 137 root - INFO - Predicted next price for ETH_USDT: 2402.3191
+[2025-07-01 06:55:25,595] 105 root - INFO - Starting prediction for SOL_USDT...
+[2025-07-01 06:55:25,650] 259 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2025-07-01 06:55:25,654] 58 root - INFO - Object loaded successfully from: F:\FYP-II\CryptoVertex\artifacts\SOL_USDT\scalers\SOL_USDT_scaler.pkl
+[2025-07-01 06:55:25,739] 137 root - INFO - Predicted next price for SOL_USDT: 155.4057
+[2025-07-01 06:55:25,739] 105 root - INFO - Starting prediction for XRP_USDT...
+[2025-07-01 06:55:25,845] 259 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2025-07-01 06:55:25,862] 58 root - INFO - Object loaded successfully from: F:\FYP-II\CryptoVertex\artifacts\XRP_USDT\scalers\XRP_USDT_scaler.pkl
+[2025-07-01 06:55:25,962] 137 root - INFO - Predicted next price for SOL_USDT: 155.4057
+[2025-07-01 06:55:25,962] 105 root - INFO - Starting prediction for XRP_USDT...
+[2025-07-01 06:55:26,009] 259 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2025-07-01 06:55:26,015] 58 root - INFO - Object loaded successfully from: F:\FYP-II\CryptoVertex\artifacts\XRP_USDT\scalers\XRP_USDT_scaler.pkl
+[2025-07-01 06:55:26,136] 157 tensorflow - WARNING - 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x00000221BADB1300> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[2025-07-01 06:55:26,180] 137 root - INFO - Predicted next price for XRP_USDT: 2.2620
+[2025-07-01 06:55:26,180] 161 root - INFO - Batch prediction summary: {'ADA_USDT': '0.5501', 'BTC_USDT': '104641.6517', 'ETH_USDT': '2402.3191', 'SOL_USDT': '155.4057', 'XRP_USDT': '2.2620'}
+[2025-07-01 06:55:26,180] 105 root - INFO - Starting prediction for BTC_USDT...
+[2025-07-01 06:55:26,346] 259 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2025-07-01 06:55:26,354] 58 root - INFO - Object loaded successfully from: F:\FYP-II\CryptoVertex\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2025-07-01 06:55:26,376] 157 tensorflow - WARNING - 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000002BA9A6F1300> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[2025-07-01 06:55:26,507] 137 root - INFO - Predicted next price for XRP_USDT: 2.2620
+[2025-07-01 06:55:26,507] 161 root - INFO - Batch prediction summary: {'ADA_USDT': '0.5501', 'BTC_USDT': '104641.6517', 'ETH_USDT': '2402.3191', 'SOL_USDT': '155.4057', 'XRP_USDT': '2.2620'}
+[2025-07-01 06:55:26,507] 105 root - INFO - Starting prediction for BTC_USDT...
+[2025-07-01 06:55:26,685] 259 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2025-07-01 06:55:26,691] 58 root - INFO - Object loaded successfully from: F:\FYP-II\CryptoVertex\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2025-07-01 06:55:26,952] 157 tensorflow - WARNING - 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x00000221BAD572E0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[2025-07-01 06:55:27,176] 137 root - INFO - Predicted next price for BTC_USDT: 104641.6517
+[2025-07-01 06:55:27,303] 157 tensorflow - WARNING - 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000002BA9A6932E0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[2025-07-01 06:55:27,329] 137 root - INFO - Predicted next price for BTC_USDT: 104641.6517

@@ -1,0 +1,31 @@
+[2025-07-01 06:44:08,580] 57 root - INFO - Data paths config loaded from: F:\FYP-II\CryptoVertex\data_paths.json
+[2025-07-01 06:44:38,707] 70 root - INFO - \U0001f504 Waiting for next UTC 00:00 + 10s to run pipeline daily...
+[2025-07-01 06:44:38,831] 79 root - INFO - \u23f3 Sleeping for 80121 seconds until next UTC 00:00...
+[2025-07-01 06:44:38,843] 53 root - INFO - Running pipeline...
+[2025-07-01 06:44:38,843] 20 root - INFO - Attempting to run script: F:\FYP-II\CryptoVertex\src\scraper\scraper.py
+[2025-07-01 06:44:38,843] 26 root - INFO - Starting execution of: src\scraper\scraper.py
+[2025-07-01 06:44:39,459] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-07-01 06:44:39,461] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2025-07-01 06:44:39,465] 97 werkzeug - INFO -  * Restarting with stat
+[2025-07-01 06:53:53,691] 42 root - INFO - Successfully finished execution of: src\scraper\scraper.py
+[2025-07-01 06:53:53,691] 20 root - INFO - Attempting to run script: F:\FYP-II\CryptoVertex\src\components\data_transformation.py
+[2025-07-01 06:53:53,691] 26 root - INFO - Starting execution of: src\components\data_transformation.py
+[2025-07-01 06:54:05,452] 42 root - INFO - Successfully finished execution of: src\components\data_transformation.py
+[2025-07-01 06:54:05,452] 20 root - INFO - Attempting to run script: F:\FYP-II\CryptoVertex\src\components\data_trainer.py
+[2025-07-01 06:54:05,452] 26 root - INFO - Starting execution of: src\components\data_trainer.py
+[2025-07-01 06:55:03,035] 39 root - INFO - Error output from src\components\data_trainer.py:
+2025-07-01 06:54:15.538119: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-07-01 06:54:23.308436: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+[2025-07-01 06:55:03,035] 42 root - INFO - Successfully finished execution of: src\components\data_trainer.py
+[2025-07-01 06:55:03,035] 20 root - INFO - Attempting to run script: F:\FYP-II\CryptoVertex\src\pipeline\predict_pipeline.py
+[2025-07-01 06:55:03,035] 26 root - INFO - Starting execution of: src\pipeline\predict_pipeline.py
+[2025-07-01 06:55:29,935] 39 root - INFO - Error output from src\pipeline\predict_pipeline.py:
+2025-07-01 06:55:05.107966: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-07-01 06:55:08.903799: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-07-01 06:55:18.792299: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING:tensorflow:5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x00000221BADB1300> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x00000221BAD572E0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[2025-07-01 06:55:29,936] 42 root - INFO - Successfully finished execution of: src\pipeline\predict_pipeline.py
+[2025-07-01 06:55:29,936] 67 root - INFO - Pipeline execution completed.
