@@ -1,0 +1,8 @@
+[2025-07-01 09:02:01,354] 112 root - WARNING - No OHLCV data fetched for BTC/USDT. Nothing saved.
+[2025-07-01 09:02:10,152] 112 root - WARNING - No OHLCV data fetched for ADA/USDT. Nothing saved.
+[2025-07-01 09:02:19,469] 112 root - WARNING - No OHLCV data fetched for ETH/USDT. Nothing saved.
+[2025-07-01 09:02:28,532] 112 root - WARNING - No OHLCV data fetched for XRP/USDT. Nothing saved.
+[2025-07-01 09:02:35,062] 112 root - WARNING - No OHLCV data fetched for SOL/USDT. Nothing saved.
+[2025-07-01 09:02:35,145] 136 root - INFO - Start time: 2025-07-01 09:01:50.296740
+[2025-07-01 09:02:35,145] 137 root - INFO - End time: 2025-07-01 09:02:35.145009
+[2025-07-01 09:02:35,145] 138 root - INFO - Total Running time: 0:00:44.848269
