@@ -1,0 +1,9 @@
+[2026-01-22 00:00:33,109] 61 root - INFO - Data paths config loaded from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\data_paths.json
+[2026-01-22 00:02:12,436] 109 root - INFO - Starting prediction for ADA_USDT...
+[2026-01-22 00:02:12,596] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-22 00:02:12,604] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\ADA_USDT\scalers\ADA_USDT_scaler.pkl
+[2026-01-22 00:02:12,931] 141 root - INFO - Predicted next price for ADA_USDT: 0.5449
+[2026-01-22 00:02:12,946] 109 root - INFO - Starting prediction for ADA_USDT...
+[2026-01-22 00:02:12,983] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-22 00:02:12,987] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\ADA_USDT\scalers\ADA_USDT_scaler.pkl
+[2026-01-22 00:02:13,333] 141 root - INFO - Predicted next price for ADA_USDT: 0.5449

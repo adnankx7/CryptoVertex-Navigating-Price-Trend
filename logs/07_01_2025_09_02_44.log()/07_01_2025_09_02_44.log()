@@ -1,7 +1,0 @@
-[2025-07-01 09:02:44,409] 50 root - INFO - Starting data transformation
-[2025-07-01 09:02:45,595] 83 root - INFO - Saved train/val/test for ETH_USDT
-[2025-07-01 09:02:45,718] 83 root - INFO - Saved train/val/test for BTC_USDT
-[2025-07-01 09:02:45,979] 83 root - INFO - Saved train/val/test for XRP_USDT
-[2025-07-01 09:02:46,065] 83 root - INFO - Saved train/val/test for SOL_USDT
-[2025-07-01 09:02:46,206] 83 root - INFO - Saved train/val/test for ADA_USDT
-[2025-07-01 09:02:46,206] 85 root - INFO - Data transformation completed successfully

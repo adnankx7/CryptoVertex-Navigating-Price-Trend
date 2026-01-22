@@ -1,7 +1,0 @@
-[2025-06-24 18:34:58,527] 19 root - INFO - Project root resolved to: F:\FYP-II\CryptoVertex
-[2025-06-24 18:34:58,527] 57 root - INFO - Current working directory: F:\FYP-II\CryptoVertex
-[2025-06-24 18:34:58,527] 59 root - INFO - Listing files in src/ directory:
-[2025-06-24 18:34:58,530] 62 root - INFO - components, exception.py, logger.py, pipeline, scraper, utils.py, __init__.py, __pycache__
-[2025-06-24 18:34:58,530] 66 root - INFO - Running pipeline...
-[2025-06-24 18:34:58,533] 24 root - INFO - Checking script file at: F:\FYP-II\CryptoVertex\src\scraper\scraper.py
-[2025-06-24 18:34:58,535] 30 root - INFO - Starting execution of: src\scraper\scraper.py

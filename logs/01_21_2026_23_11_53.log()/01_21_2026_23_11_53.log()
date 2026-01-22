@@ -1,0 +1,247 @@
+[2026-01-21 23:11:53,156] 61 root - INFO - Data paths config loaded from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\data_paths.json
+[2026-01-21 23:11:53,186] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:11:53,359] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:11:53,368] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:11:53,886] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:11:53,890] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:11:54,132] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:11:54,135] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:11:54,484] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:11:54,486] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:11:54,573] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:11:54,578] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:11:55,141] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:12:01,404] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:12:01,453] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:12:01,456] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:12:01,735] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:12:01,754] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:12:01,804] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:12:01,807] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:12:02,479] 157 tensorflow - WARNING - 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001C405A81D00> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[2026-01-21 23:12:02,572] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:17:04,618] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:17:04,665] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:17:04,668] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:17:04,926] 157 tensorflow - WARNING - 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001C40631F380> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[2026-01-21 23:17:04,943] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:17:04,955] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:17:05,073] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:17:05,077] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:17:05,389] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:17:05,792] 109 root - INFO - Starting prediction for ETH_USDT...
+[2026-01-21 23:17:05,876] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:17:05,881] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\ETH_USDT\scalers\ETH_USDT_scaler.pkl
+[2026-01-21 23:17:06,181] 141 root - INFO - Predicted next price for ETH_USDT: 2389.5177
+[2026-01-21 23:17:12,155] 109 root - INFO - Starting prediction for ADA_USDT...
+[2026-01-21 23:17:12,220] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:17:12,223] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\ADA_USDT\scalers\ADA_USDT_scaler.pkl
+[2026-01-21 23:17:12,398] 141 root - INFO - Predicted next price for ADA_USDT: 0.5449
+[2026-01-21 23:18:18,841] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:18:18,894] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:18:18,896] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:18:19,185] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:18:19,193] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:18:19,263] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:18:19,266] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:18:19,565] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:18:23,743] 109 root - INFO - Starting prediction for SOL_USDT...
+[2026-01-21 23:18:23,796] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:18:23,801] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\SOL_USDT\scalers\SOL_USDT_scaler.pkl
+[2026-01-21 23:18:24,014] 141 root - INFO - Predicted next price for SOL_USDT: 142.0015
+[2026-01-21 23:18:33,946] 109 root - INFO - Starting prediction for SOL_USDT...
+[2026-01-21 23:18:34,068] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:18:34,077] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\SOL_USDT\scalers\SOL_USDT_scaler.pkl
+[2026-01-21 23:18:34,605] 141 root - INFO - Predicted next price for SOL_USDT: 142.0015
+[2026-01-21 23:18:34,613] 109 root - INFO - Starting prediction for SOL_USDT...
+[2026-01-21 23:18:34,685] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:18:34,689] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\SOL_USDT\scalers\SOL_USDT_scaler.pkl
+[2026-01-21 23:18:34,893] 141 root - INFO - Predicted next price for SOL_USDT: 142.0015
+[2026-01-21 23:18:37,691] 109 root - INFO - Starting prediction for SOL_USDT...
+[2026-01-21 23:18:37,739] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:18:37,741] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\SOL_USDT\scalers\SOL_USDT_scaler.pkl
+[2026-01-21 23:18:37,931] 141 root - INFO - Predicted next price for SOL_USDT: 142.0015
+[2026-01-21 23:18:37,938] 109 root - INFO - Starting prediction for SOL_USDT...
+[2026-01-21 23:18:38,013] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:18:38,015] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\SOL_USDT\scalers\SOL_USDT_scaler.pkl
+[2026-01-21 23:18:38,265] 141 root - INFO - Predicted next price for SOL_USDT: 142.0015
+[2026-01-21 23:19:47,784] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:19:47,826] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:19:47,829] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:19:48,101] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:19:48,111] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:19:48,247] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:19:48,251] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:19:49,029] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:19:56,160] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:19:56,207] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:19:56,209] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:19:56,485] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:19:56,493] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:19:56,564] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:19:56,567] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:19:56,875] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:19:57,266] 109 root - INFO - Starting prediction for ETH_USDT...
+[2026-01-21 23:19:57,339] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:19:57,343] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\ETH_USDT\scalers\ETH_USDT_scaler.pkl
+[2026-01-21 23:19:57,678] 141 root - INFO - Predicted next price for ETH_USDT: 2389.5177
+[2026-01-21 23:20:12,993] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:20:13,037] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:20:13,040] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:20:13,335] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:20:23,376] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:20:23,483] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:20:23,488] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:20:23,848] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:20:23,863] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:20:24,031] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:20:24,038] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:20:25,010] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:20:52,863] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:20:52,927] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:20:52,934] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:20:53,325] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:20:53,342] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:20:53,497] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:20:53,515] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:20:54,340] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:20:54,615] 109 root - INFO - Starting prediction for ETH_USDT...
+[2026-01-21 23:20:54,704] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:20:54,707] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\ETH_USDT\scalers\ETH_USDT_scaler.pkl
+[2026-01-21 23:20:55,021] 141 root - INFO - Predicted next price for ETH_USDT: 2389.5177
+[2026-01-21 23:20:55,804] 109 root - INFO - Starting prediction for SOL_USDT...
+[2026-01-21 23:20:55,856] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:20:55,864] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\SOL_USDT\scalers\SOL_USDT_scaler.pkl
+[2026-01-21 23:20:56,294] 141 root - INFO - Predicted next price for SOL_USDT: 142.0015
+[2026-01-21 23:20:56,984] 109 root - INFO - Starting prediction for ETH_USDT...
+[2026-01-21 23:20:57,165] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:20:57,179] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\ETH_USDT\scalers\ETH_USDT_scaler.pkl
+[2026-01-21 23:20:58,703] 141 root - INFO - Predicted next price for ETH_USDT: 2389.5177
+[2026-01-21 23:22:47,887] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:22:48,183] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:22:48,222] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:22:49,432] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:22:49,464] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:22:49,636] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:22:49,643] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:22:50,988] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:29:13,572] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:29:13,634] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:29:13,641] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:29:14,045] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:29:14,059] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:29:14,157] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:29:14,161] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:29:14,549] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:29:18,577] 109 root - INFO - Starting prediction for SOL_USDT...
+[2026-01-21 23:29:18,680] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:29:18,684] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\SOL_USDT\scalers\SOL_USDT_scaler.pkl
+[2026-01-21 23:29:18,895] 141 root - INFO - Predicted next price for SOL_USDT: 142.0015
+[2026-01-21 23:31:32,184] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:31:32,253] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:31:32,258] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:31:32,608] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:31:32,623] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:31:32,710] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:31:32,715] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:31:33,193] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:32:38,870] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:32:38,929] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:32:38,933] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:32:39,269] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:32:39,280] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:32:39,363] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:32:39,367] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:32:40,156] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:35:04,460] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:35:04,517] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:35:04,521] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:35:04,849] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:35:04,859] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:35:04,942] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:35:04,946] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:35:05,541] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:35:11,943] 109 root - INFO - Starting prediction for SOL_USDT...
+[2026-01-21 23:35:11,985] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:35:11,988] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\SOL_USDT\scalers\SOL_USDT_scaler.pkl
+[2026-01-21 23:35:12,190] 141 root - INFO - Predicted next price for SOL_USDT: 142.0015
+[2026-01-21 23:35:12,198] 109 root - INFO - Starting prediction for SOL_USDT...
+[2026-01-21 23:35:12,257] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:35:12,262] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\SOL_USDT\scalers\SOL_USDT_scaler.pkl
+[2026-01-21 23:35:12,775] 141 root - INFO - Predicted next price for SOL_USDT: 142.0015
+[2026-01-21 23:35:16,637] 109 root - INFO - Starting prediction for ADA_USDT...
+[2026-01-21 23:35:16,718] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:35:16,724] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\ADA_USDT\scalers\ADA_USDT_scaler.pkl
+[2026-01-21 23:35:16,964] 141 root - INFO - Predicted next price for ADA_USDT: 0.5449
+[2026-01-21 23:35:18,724] 109 root - INFO - Starting prediction for XRP_USDT...
+[2026-01-21 23:35:18,949] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:35:18,964] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\XRP_USDT\scalers\XRP_USDT_scaler.pkl
+[2026-01-21 23:35:19,633] 141 root - INFO - Predicted next price for XRP_USDT: 2.1897
+[2026-01-21 23:37:34,781] 109 root - INFO - Starting prediction for ETH_USDT...
+[2026-01-21 23:37:35,198] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:37:35,286] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\ETH_USDT\scalers\ETH_USDT_scaler.pkl
+[2026-01-21 23:37:38,118] 141 root - INFO - Predicted next price for ETH_USDT: 2389.5177
+[2026-01-21 23:37:38,186] 109 root - INFO - Starting prediction for ETH_USDT...
+[2026-01-21 23:37:38,561] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:37:38,576] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\ETH_USDT\scalers\ETH_USDT_scaler.pkl
+[2026-01-21 23:37:40,109] 141 root - INFO - Predicted next price for ETH_USDT: 2389.5177
+[2026-01-21 23:37:45,673] 109 root - INFO - Starting prediction for XRP_USDT...
+[2026-01-21 23:37:45,800] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:37:45,808] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\XRP_USDT\scalers\XRP_USDT_scaler.pkl
+[2026-01-21 23:37:46,759] 141 root - INFO - Predicted next price for XRP_USDT: 2.1897
+[2026-01-21 23:37:46,812] 109 root - INFO - Starting prediction for XRP_USDT...
+[2026-01-21 23:37:46,956] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:37:46,969] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\XRP_USDT\scalers\XRP_USDT_scaler.pkl
+[2026-01-21 23:37:47,806] 141 root - INFO - Predicted next price for XRP_USDT: 2.1897
+[2026-01-21 23:43:10,511] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:43:10,583] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:43:10,588] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:43:10,938] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:43:11,678] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:43:11,858] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:43:11,870] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:43:12,603] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:43:16,468] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:43:16,591] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:43:16,610] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:43:17,437] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:43:17,844] 109 root - INFO - Starting prediction for XRP_USDT...
+[2026-01-21 23:43:17,989] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:43:18,004] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\XRP_USDT\scalers\XRP_USDT_scaler.pkl
+[2026-01-21 23:43:18,908] 141 root - INFO - Predicted next price for XRP_USDT: 2.1897
+[2026-01-21 23:44:06,447] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:44:06,654] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:44:06,677] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:44:07,977] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:44:08,152] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:44:08,353] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:44:08,365] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:44:09,609] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:44:14,347] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:44:14,577] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:44:14,594] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:44:15,838] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:44:15,876] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:44:16,120] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:44:16,135] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:44:17,639] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:54:04,957] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:54:05,009] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:54:05,012] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:54:05,330] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:54:05,341] 109 root - INFO - Starting prediction for BTC_USDT...
+[2026-01-21 23:54:05,406] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:54:05,411] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-21 23:54:05,991] 141 root - INFO - Predicted next price for BTC_USDT: 101795.4910
+[2026-01-21 23:54:10,209] 109 root - INFO - Starting prediction for ETH_USDT...
+[2026-01-21 23:54:10,333] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:54:10,353] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\ETH_USDT\scalers\ETH_USDT_scaler.pkl
+[2026-01-21 23:54:11,203] 141 root - INFO - Predicted next price for ETH_USDT: 2389.5177
+[2026-01-21 23:54:14,492] 109 root - INFO - Starting prediction for SOL_USDT...
+[2026-01-21 23:54:14,586] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:54:14,592] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\SOL_USDT\scalers\SOL_USDT_scaler.pkl
+[2026-01-21 23:54:14,839] 141 root - INFO - Predicted next price for SOL_USDT: 142.0015
+[2026-01-21 23:54:16,985] 109 root - INFO - Starting prediction for XRP_USDT...
+[2026-01-21 23:54:17,029] 249 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-01-21 23:54:17,031] 58 root - INFO - Object loaded successfully from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\XRP_USDT\scalers\XRP_USDT_scaler.pkl
+[2026-01-21 23:54:17,267] 141 root - INFO - Predicted next price for XRP_USDT: 2.1897

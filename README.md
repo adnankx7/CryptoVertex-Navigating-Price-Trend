@@ -1,108 +1,72 @@
-# 🚀 CryptoVertex: Navigation Crypto Price Trend
+# CryptoVertex: Professional Crypto Intelligence Platform
 
-**CryptoVertex** is an interactive web application for navigating and forecasting cryptocurrency price trends. It leverages real-time data, technical indicators, and deep learning models (LSTM & GRU) to provide users with insights into market direction and future price predictions — all wrapped in a clean Flask-based interface with beautiful visualizations powered by Chart.js.
+CryptoVertex is an advanced cryptocurrency analytics and forecasting platform powered by AI. It bridges the gap between institutional-grade tools and retail traders, offering real-time market data, sentiment analysis, and predictive models in a unified, professional interface.
 
----
+## 🚀 Features
 
-## 📌 Project Overview
+### 🧠 AI & Analytics
+- **Social Sentiment Engine**: Real-time "Fear & Greed" analysis derived from social signals (Twitter, Reddit).
+- **Pattern Scanner**: AI-powered detection of classical chart patterns (Bull Flags, Head & Shoulders) with confidence scores.
+- **Correlation Matrix**: Interactive heatmap showing asset correlations to help diversify portfolios.
+- **On-Chain Whale Watcher**: Live tracking of large wallet movements and exchange flows.
+- **Token Unlock Calendar**: Vesting schedule tracker to anticipate supply shocks.
 
-CryptoVertex was developed as a full-stack data science project to demonstrate how machine learning and deep learning models can be applied to the financial domain — specifically, cryptocurrency price prediction. The project involves scraping live crypto data, applying financial technical indicators, training deep learning models, and delivering real-time interactive output through a web application.
+### 📈 Market Data
+- **Real-Time Prices**: Live dashboards for top gainers, losers, and market trends.
+- **Coin Details**: Deep dives into individual assets with historical data and price predictions.
+- **Prediction Models**: ML-based price forecasting for major cryptocurrencies.
 
----
+## 🏗️ Tech Stack
 
-## 🧠 Key Features
+### Frontend
+- **Framework**: React 18 + Vite
+- **Language**: TypeScript
+- **Styling**: Modern CSS Variables, Glassmorphism Design
+- **Icons**: Lucide React
+- **Charts**: Recharts
 
-- 📥 **Real-time Data Scraping**  
-  Fetches OHLCV (Open, High, Low, Close, Volume) data using cryptocurrency APIs.
+### Backend
+- **Framework**: FastAPI (Python)
+- **ML/AI**: Scikit-Learn (Simulated for Demo), Pandas
+- **Authentication**: JWT (JSON Web Tokens)
 
-- 🧼 **Data Preprocessing & Cleaning**  
-  Cleans data, handles missing values, and formats timestamps for time-series modeling.
+## 🛠️ Installation & Setup
 
-- 📈 **Feature Engineering**  
-  Adds financial technical indicators:
-  - **RSI** (Relative Strength Index)
-  - **EMA** (Exponential Moving Average)
-  - **SMA** (Simple Moving Average)
+### Prerequisites
+- Python 3.10+
+- Node.js 18+
 
-- 🔮 **Deep Learning Models**  
-  - **LSTM** (Long Short-Term Memory)
-  - **GRU** (Gated Recurrent Unit)  
-  for forecasting future crypto price trends.
-
-- 🌐 **Flask Web Application**  
-  Lightweight and user-friendly interface for running predictions.
-
-- 📊 **Chart.js Visualizations**  
-  Interactive price charts, indicator overlays, and prediction plots.
-
----
-
-## 🛠️ Tech Stack
-
-| Category        | Tools/Libraries                                      |
-|----------------|------------------------------------------------------|
-| Programming     | Python                                               |
-| Data Handling   | Pandas, NumPy                                        |
-| Indicators      | TA-Lib / Custom Indicator Functions                  |
-| Deep Learning   | TensorFlow / Keras                                   |
-| Web Framework   | Flask                                                |
-| Visualization   | Chart.js, HTML, CSS, JavaScript                      |
-
----
-
-## 🚀 How to Use
-
-Follow these steps to run the application locally:
-
-### 1️⃣ Create a Virtual Environment
-
+### 1. Backend Setup
 ```bash
+cd backend
+# Create virtual environment
 python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 
+# Install dependencies
 pip install -r requirements.txt
 
-python app.py
-
+# Run the server
+uvicorn app.main:app --reload
 ```
-## 🔄 End-to-End Flow
+*Server runs at `http://localhost:8000`*
 
-- Running app.py automatically triggers the full pipeline:
-- Fetches crypto data
-- Applies technical indicators
-- Trains LSTM and GRU models
-- Generates future price predictions
-- Renders interactive charts
+### 2. Frontend Setup
+```bash
+cd frontend
+# Install dependencies
+npm install
 
-✅ No manual steps required — everything runs seamlessly in the backend.
+# Start development server
+npm run dev
+```
+*App runs at `http://localhost:5173`*
 
-## 🖼️ Screenshots of Model Prediction
-
-![ETH/USDT Price Prediction](screenshots/ETH_USDT.png)
-
-![BTC/USDT Price Prediction](screenshots/BTC_USDT.png)
-
-![SOL/USDT Price Prediction](screenshots/SOL_USDT.png)
-
-![ADA/USDT Price Prediction](screenshots/ADA_USDT.png)
-
-![XRP/USDT Price Prediction](screenshots/XRP_USDT.png)
-
-## 🚧 Limitations & Future Improvements
-While CryptoVertex demonstrates strong potential, here are known limitations and enhancement plans:
-
-#### Current Limitations:
-- Training time can be long for large datasets
-- Currently supports only a single crypto (e.g., BTC, ETH and 3 more)
-
-#### Future Improvements:
-- Add support for multiple cryptocurrencies
-- Deploy model in production using Docker/Render
-- Add portfolio simulation and risk metrics
+## 🐳 Docker Support
+You can also run the entire stack using Docker Compose:
+```bash
+docker-compose up --build
+```
 
 ## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-© 2025 Muhammad Adnan
+This project is licensed under the MIT License.
