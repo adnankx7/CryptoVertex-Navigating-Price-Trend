@@ -33,6 +33,11 @@ from app.routers import analytics, market
 app.include_router(analytics.router)
 app.include_router(market.router)
 
+@app.on_event("startup")
+async def startup_event():
+    from app.core.scheduler import start_scheduler
+    start_scheduler()
+
 @app.get("/")
 def root():
     return {"message": "Welcome to CryptoVertex API"}

@@ -30,6 +30,22 @@ CryptoVertex is an advanced cryptocurrency analytics and forecasting platform po
 - **ML/AI**: Scikit-Learn (Simulated for Demo), Pandas
 - **Authentication**: JWT (JSON Web Tokens)
 
+### 🤖 AI Model Architecture
+The platform analyzes price trends using a rigorous Deep Learning pipeline:
+
+- **Model Type**: Gated Recurrent Unit (GRU) Neural Network.
+- **Architecture**:
+  - **Input Layer**: Processes sequences of 30 time steps.
+  - **Hidden Layers**: 1-3 stacked GRU layers (dynamically tuned) with Dropout for regularization.
+  - **Output Layer**: Dense layer predicting the next closing price.
+- **Features**:
+  - **Technical Indicators**: RSI (Relative Strength Index), EMA (Exponential Moving Average), SMA (Simple Moving Average).
+  - **Price Data**: Historical Close prices and Volume.
+- **Training Process**:
+  - **Hyperparameter Tuning**: Uses `Keras Tuner` (Random Search) to optimize units (32-256), dropout rate (0.1-0.5), and learning rate.
+  - **Optimization**: Adam Optimizer with Mean Squared Error (MSE) loss function.
+  - **Validation**: Early Stopping to prevent overfitting.
+
 ## 🛠️ Installation & Setup
 
 ### Prerequisites

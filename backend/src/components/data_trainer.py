@@ -224,7 +224,7 @@ class ModelTrainer:
             raise e
 
 
-if __name__ == "__main__":
+def run_training():
     data_paths_json_file = PROJECT_ROOT / "data_paths.json"
 
     try:
@@ -232,11 +232,14 @@ if __name__ == "__main__":
             all_data_paths = json.load(f)
         logging.info(f"Successfully loaded data paths from {data_paths_json_file}")
     except FileNotFoundError:
-        sys.exit(1)
+        logging.error(f"Data paths file not found: {data_paths_json_file}")
+        return
     except json.JSONDecodeError:
-        sys.exit(1)
-    except Exception:
-        sys.exit(1)
+        logging.error(f"Invalid JSON in data paths file: {data_paths_json_file}")
+        return
+    except Exception as e:
+        logging.error(f"Error loading data paths: {e}")
+        return
 
     coins_to_process = list(all_data_paths.keys())
 
@@ -252,6 +255,7 @@ if __name__ == "__main__":
         test_path = coin_specific_paths.get("test")
 
         if not all([train_path, val_path, test_path]):
+            logging.warning(f"Missing paths for {coin_name}, skipping.")
             continue
 
         train_path = os.path.join(PROJECT_ROOT, train_path) if not os.path.isabs(train_path) else train_path
@@ -259,6 +263,7 @@ if __name__ == "__main__":
         test_path = os.path.join(PROJECT_ROOT, test_path) if not os.path.isabs(test_path) else test_path
 
         if not all(os.path.exists(p) for p in [train_path, val_path, test_path]):
+            logging.warning(f"One or more data files do not exist for {coin_name}, skipping.")
             continue
 
         try:
@@ -266,10 +271,12 @@ if __name__ == "__main__":
             val_df = pd.read_csv(val_path)
             test_df = pd.read_csv(test_path)
             logging.info(f"Loaded data for {coin_name}.")
-        except Exception:
+        except Exception as e:
+            logging.error(f"Error reading CSVs for {coin_name}: {e}")
             continue
 
         if train_df.empty or val_df.empty:
+            logging.warning(f"Train or Val data empty for {coin_name}, skipping.")
             continue
 
         trainer = ModelTrainer()
@@ -281,9 +288,12 @@ if __name__ == "__main__":
             )
             logging.info(f"Training completed for {coin_name}.")
             logging.info(f"Model: {model_path_res}")
-        except CustomException:
-            pass
-        except Exception:
-            pass
+        except CustomException as e:
+            logging.error(f"CustomException during training {coin_name}: {e}")
+        except Exception as e:
+            logging.error(f"Unexpected error during training {coin_name}: {e}")
 
         logging.info(f"--- Completed training pipeline for {coin_name} ---")
+
+if __name__ == "__main__":
+    run_training()
