@@ -18,3 +18,4 @@ httpx
 passlib
 email-validator
 apscheduler
+matplotlib

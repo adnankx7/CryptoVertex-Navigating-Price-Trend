@@ -1,0 +1,81 @@
+[2026-01-22 16:00:36,432] 61 root - INFO - Data paths config loaded from: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\data_paths.json
+[2026-01-22 16:00:37,218] 507 apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[2026-01-22 16:00:37,218] 507 apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[2026-01-22 16:00:37,219] 507 apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[2026-01-22 16:00:37,220] 507 apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[2026-01-22 16:00:37,220] 1090 apscheduler.scheduler - INFO - Added job "Daily Scrape at 4 AM" to job store "default"
+[2026-01-22 16:00:37,221] 1090 apscheduler.scheduler - INFO - Added job "Bi-weekly Training" to job store "default"
+[2026-01-22 16:00:37,221] 1090 apscheduler.scheduler - INFO - Added job "Startup Scrape" to job store "default"
+[2026-01-22 16:00:37,221] 1090 apscheduler.scheduler - INFO - Added job "Startup Training" to job store "default"
+[2026-01-22 16:00:37,221] 214 apscheduler.scheduler - INFO - Scheduler started
+[2026-01-22 16:00:37,221] 78 app.core.scheduler - INFO - Scheduler started with daily scrape (4am) and bi-weekly training.
+[2026-01-22 16:00:47,232] 728 apscheduler.scheduler - INFO - Removed job startup_scrape
+[2026-01-22 16:00:47,233] 179 apscheduler.executors.default - INFO - Running job "Startup Scrape (trigger: date[2026-01-22 16:00:47 PKT], next run at: 2026-01-22 16:00:47 PKT)" (scheduled at 2026-01-22 16:00:47.218952+05:00)
+[2026-01-22 16:00:47,233] 21 app.core.scheduler - INFO - Starting scheduled scrape job...
+[2026-01-22 16:00:57,232] 728 apscheduler.scheduler - INFO - Removed job startup_training
+[2026-01-22 16:00:57,232] 179 apscheduler.executors.default - INFO - Running job "Startup Training (trigger: date[2026-01-22 16:00:57 PKT], next run at: 2026-01-22 16:00:57 PKT)" (scheduled at 2026-01-22 16:00:57.220091+05:00)
+[2026-01-22 16:00:57,232] 31 app.core.scheduler - INFO - Starting scheduled training job...
+[2026-01-22 16:00:57,233] 233 root - INFO - Successfully loaded data paths from C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\data_paths.json
+[2026-01-22 16:00:57,233] 247 root - INFO - --- Starting training pipeline for ADA_USDT ---
+[2026-01-22 16:00:57,247] 273 root - INFO - Loaded data for ADA_USDT.
+[2026-01-22 16:00:57,247] 67 root - INFO - Starting model training process for ADA_USDT...
+[2026-01-22 16:00:57,255] 36 root - INFO - Object saved to C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\ADA_USDT\scalers\ADA_USDT_scaler.pkl
+[2026-01-22 16:00:57,255] 93 root - INFO - Saved MinMaxScaler for ADA_USDT to: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\ADA_USDT\scalers\ADA_USDT_scaler.pkl
+[2026-01-22 16:00:57,431] 127 root - INFO - Starting hyperparameter tuning for ADA_USDT...
+[2026-01-22 16:00:58,686] 149 tensorflow - WARNING - From C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\venv\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+[2026-01-22 16:01:10,554] 136 root - INFO - Start time: 2026-01-22 16:00:47.236978
+[2026-01-22 16:01:10,554] 137 root - INFO - End time: 2026-01-22 16:01:10.554117
+[2026-01-22 16:01:10,554] 138 root - INFO - Total Running time: 0:00:23.317139
+[2026-01-22 16:01:10,554] 25 app.core.scheduler - INFO - Scheduled scrape job completed.
+[2026-01-22 16:01:10,556] 203 apscheduler.executors.default - INFO - Job "Startup Scrape (trigger: date[2026-01-22 16:00:47 PKT], next run at: 2026-01-22 16:00:47 PKT)" executed successfully
+[2026-01-22 16:04:16,315] 195 apscheduler.executors.default - ERROR - Job "Startup Training (trigger: date[2026-01-22 16:00:57 PKT], next run at: 2026-01-22 16:00:57 PKT)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\adnan\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\adnan\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\adnan\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\adnan\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\venv\Lib\site-packages\apscheduler\executors\base.py", line 181, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\app\core\scheduler.py", line 34, in wrapped_training
+    await asyncio.to_thread(run_training)
+  File "C:\Users\adnan\AppData\Local\Programs\Python\Python313\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+[2026-01-22 16:12:59,928] 131 root - INFO - Best hyperparameters for ADA_USDT: {'num_layers': 1, 'units': 32, 'dropout_rate': 0.30000000000000004, 'learning_rate': 0.01}
+[2026-01-22 16:12:59,953] 134 root - INFO - Training final model for ADA_USDT...
+[2026-01-22 16:13:22,677] 83 absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[2026-01-22 16:13:22,700] 143 root - INFO - Saved model for ADA_USDT to: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\ADA_USDT\models\ADA_USDT.h5
+[2026-01-22 16:13:23,039] 163 root - INFO - Evaluation metrics for ADA_USDT on test set:
+[2026-01-22 16:13:23,039] 164 root - INFO - MSE: 0.0031, RMSE: 0.0553, MAE: 0.0340, R2: 0.8927, sMAPE: 4.13%
+[2026-01-22 16:13:23,040] 178 root - INFO - TWAP Actual: 0.7959, TWAP Predicted: 0.8023
+[2026-01-22 16:13:23,040] 179 root - INFO - VWAP Actual: 0.8462, VWAP Predicted: 0.8544
+[2026-01-22 16:13:25,414] 197 root - INFO - Saved prediction plot to: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\ADA_USDT\plots\ADA_USDT.png
+[2026-01-22 16:13:25,605] 213 root - INFO - Saved metrics image to: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\ADA_USDT\metrics\ADA_USDT_metrics.png
+[2026-01-22 16:13:25,611] 292 root - ERROR - CustomException during training ADA_USDT: Error occurred in python script name [C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\src\components\data_trainer.py] line number [215] error message[No module named 'openpyxl']
+[2026-01-22 16:13:25,611] 296 root - INFO - --- Completed training pipeline for ADA_USDT ---
+[2026-01-22 16:13:25,611] 247 root - INFO - --- Starting training pipeline for BTC_USDT ---
+[2026-01-22 16:13:25,623] 273 root - INFO - Loaded data for BTC_USDT.
+[2026-01-22 16:13:25,623] 67 root - INFO - Starting model training process for BTC_USDT...
+[2026-01-22 16:13:25,627] 36 root - INFO - Object saved to C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-22 16:13:25,627] 93 root - INFO - Saved MinMaxScaler for BTC_USDT to: C:\Project\drivepk\CryptoVertex-Navigating-Price-Trend\backend\artifacts\BTC_USDT\scalers\BTC_USDT_scaler.pkl
+[2026-01-22 16:13:25,663] 127 root - INFO - Starting hyperparameter tuning for BTC_USDT...
